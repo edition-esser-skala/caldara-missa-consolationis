@@ -6,17 +6,15 @@
 \include "ees.ly"
 
 
-tempoX = \tempoMarkup "X"
+tempoKyrie = \tempoMarkup "Andante"
+  tempoKyrieFinis = \tempoMarkup "Adagio"
+tempoChriste = \tempoMarkup "Allegro"
 
 
-\include "notes/ob1.ly"
-\include "notes/ob2.ly"
-\include "notes/clno1.ly"
-\include "notes/clno2.ly"
-\include "notes/timp.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

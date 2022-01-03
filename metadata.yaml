@@ -1,20 +1,23 @@
 composer:
-  last:
-  first:
-title:
-id:
-genre:
-scoring:
+  last: Caldara
+  first: Antonio
+title: Missa Consolationis
+genre: mass
+scoring: org
 license: cc-by-sa-4.0
 sources:
   B1:
-    siglum:
-    shelfmark:
-    date:
-    rism:
-    url:
-    license:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15898
+    date: 1729
+    url: https://data.onb.ac.at/rec/AC14261934
+    license: public domain
     principal: true
+    notes: full score
+  B2:
+    siglum: A-Wn
+    shelfmark: HK.1081
+    url: https://data.onb.ac.at/rec/AC14261935
+    license: public domain
+    notes: parts for Credo, Sanctus, and Agnus Dei
 imslp:
-parts:
-  ottoni: Clarino I, II in C\\Timpani in C–G
