@@ -13,6 +13,7 @@ tempoKyrieB = \tempoMarkup "[Tempo deest]"
 
 tempoGloria = \tempoMarkup "Allegro"
 tempoLaudamus = \tempoMarkup "Andante"
+tempoGratias = \tempoMarkup "Allegro"
 
 
 \include "notes/trb1.ly"

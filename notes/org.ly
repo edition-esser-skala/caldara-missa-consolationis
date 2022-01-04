@@ -385,3 +385,48 @@ LaudamusBassFigures = \figuremode {
   r4 \bo <[6]> <4>8 \bc <[_+]>
   r2. %64 finis
 }
+
+GratiasOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoGratias
+      \set Score.currentBarNumber = #65
+    \mvTr g4\pE-\soloE g' fis
+    g4. d8. e16 fis8
+    g e a fis g16 fis e d
+    g8 g, g' a e fis
+    g g a fis4 g8
+    e a fis g8. fis16 e8 %70
+    fis8. e16 d8 g e a
+    d,4 g8 e4 a8
+    fis4 h8 g4 e8
+    a8. g16 fis e d8. e16 fis8
+    g e16 d c h a8. h16 c8 %75
+    d d'16 c h a g fis e d c h
+    a8. h16 c4 h8 e
+    d16 c d8 d, g g'16 f e d
+    c8 c'16 h a g fis e d c h a
+    g a h c d8 e c d %80
+    g,2.\fermata \bar "||" %81 finis
+  }
+}
+
+GratiasBassFigures = \figuremode {
+  r4. <2>8 <[6]>4 %65
+  r2.
+  r4 \bo <[_+]>8 \bc <[6]>4.
+  r4 <6>4 \bo <[6]>8 \bc q
+  r <6>4 <[6]>4.
+  <6>4 <[6]>4. <6\\>8 %70
+  <[6]>4. <6 5>8 <6\\> <[_+]>
+  r2.
+  <[6]>
+  r
+  r %75
+  r
+  r4 <[6]>8 <4 2> \bo <[6]> \bc q
+  <6 4> <[5] 3>4 r4.
+  r <[6]>
+  r2. %80
+  r %81 finis
+}

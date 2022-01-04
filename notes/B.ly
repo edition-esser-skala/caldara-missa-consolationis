@@ -208,3 +208,43 @@ GloriaBassoLyrics = \lyricmode {
 
   Pax, pax. %15 finis
 }
+
+GratiasBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #65
+    R2.
+    r4 r8 \mvTr d8.\pE^\soloE e16 fis8
+    g e a fis([ g16 fis e d)]
+    g4. r4 r8
+    r g a fis4 g8
+    e a16([ g fis8)] g([ g16 fis e8] %70
+    fis8.) e16 d8 g16 fis e8 a
+    d, d g e4 a8
+    fis4 h8 g16 fis g4
+    r8 a16[ g fis e] d8.[ e16 fis8]
+    g[ e16 d c h] a8.[ h16 c8] %75
+    d[ d'16 c h a] g[ fis e d c h]
+    a8.[ h16] c4 h8 e
+    d4. g,
+    R2.*2 %80
+    R2.\fermata \bar "||" %81 finis
+  }
+}
+
+GratiasBassoLyrics = \lyricmode {
+  Gra -- ti -- as %66
+  a -- gi -- mus ti --
+  bi
+  pro -- pter ma -- gnam,
+  ma -- gnam glo -- %70
+  ri -- am, glo -- ri -- am tu --
+  am, pro -- pter ma -- gnam,
+  ma -- gnam glo -- ri -- am,
+  glo -- _
+  _ _ %75
+  _ _
+  _ _ ri -- am
+  tu -- am. %78 finis
+}

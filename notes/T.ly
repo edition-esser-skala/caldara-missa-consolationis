@@ -137,3 +137,44 @@ GloriaTenoreLyrics = \lyricmode {
 
   Pax, pax. %15 finis
 }
+
+GratiasTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #65
+    \mvTr g8.\pE^\soloE a16 h8 c a d
+    h([ c16 h a g)] a4.
+    R2.
+    r8 d e c4 d8
+    h e16([ d c8)] d8([ d16 c h8]
+    c8.) h16 a8 h h cis? %70
+    d[ a] d4 cis
+    d4. r8 g, c
+    a4 d8 h4 e8
+    c16. h32 c4 r8 d16[ c h a]
+    g8.[ a16 h8] c[ a16 g fis e] %75
+    d8.[ e16 fis8] g[ g'16 f e d]
+    c[ e32 d c16 h a g] fis8 g c
+    h8( a4) g4.
+    R2.*2 %80
+    R2.\fermata \bar "||" %81 finis
+  }
+}
+
+GratiasTenoreLyrics = \lyricmode {
+  Gra -- ti -- as a -- gi -- mus %65
+  ti -- bi
+
+  pro -- pter ma -- gnam,
+  ma -- gnam glo --
+  ri -- am, glo -- ri -- am %70
+  tu -- _ _
+  am, pro -- pter
+  ma -- gnam, ma -- gnam
+  glo -- ri -- am, glo --
+  _ _ %75
+  _ _
+  _ _ ri -- am
+  tu -- am. %78 finis
+}
