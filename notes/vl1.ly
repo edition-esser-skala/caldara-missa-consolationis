@@ -225,3 +225,51 @@ DomineDeusViolinoI = {
     c\breve*1/2\fermata \bar "||" %122 finis
   }
 }
+
+DomineFiliViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoDomineFili
+      \set Score.currentBarNumber = #123
+    a''4\fE h8 a16 gis a8 e~ e16 a h16. c32
+    h16( dis,) e8~ e16 d'? c h c h a8 r16 a d16. c32
+    h16-! g-! d-! h-! \kneeBeam g,16. f''32 e16. d32 e16. f32 g16. c,32 d4 %125
+    c e16( g) e( d) cis-! a-! e-! cis-! \kneeBeam a16. g''32 f16. e32
+    f16-! d-! a-! f-! d f' e16.( d32) e16-! c-! g-! e-! c e' d16. c32
+    d16-! h-! gis-! e-! h d' c16. h32 c16-! a-! e-! c-! a8 e''
+    dis16.(\trill cis32) dis4 fis8 d16.(\trill cis32) d4 f8
+    c16.(\trill h32) c8~ c16 e c a gis'8 a16 a, h4 %130
+    a r r2
+    r r4 a'~
+    a8 g16 f e8. d16 c8. h16 a4
+    r2 r4 a'8 g
+    fis4 g8 a h a r4 %135
+    R1
+    r2 r4 g8 h
+    e, fis16. g32 fis8 g16. a32 dis,8 e16. fis32 h,16 a' g16.( fis32)
+    g8 fis16 e fis4 e r
+    r2 e4 fis8 gis %140
+    a h16 c h8 a gis16-! e-! h-! gis-! e d' c16.( h32)
+    c16-! a-! e-! c-! a4\trill r2
+    R1
+    r2 r4 a''8 g16 a
+    f f( e d) g g( f e) a a( g f) h h( a g) %145
+    c8 h16 a g8. f16 e8 d16 c d4
+    c r r2
+    r16 h\pE c16. d32 e8 d \appoggiatura d4 c2-\critnote\trill
+    r16 a h16. c32 d8 c \appoggiatura c4 h2\trill
+    r16 g a16. h32 c8 b \appoggiatura b4 a2\trill %150
+    r16 f' g16. a32 b8 a gis4 gis8.(\trill fis32 gis)
+    a4 r r2
+    R1
+    a4\fE h8 a16( gis) a8 e~ e16 a h16. c32
+    h16( dis,) e8~ e16 d'? c h c h a8 r16 a d16. c32 %155
+    h16-! g-! d-! h-! \kneeBeam g,16. f''32 e16. d32 e16. f32 g16. c,32 d4
+    c e16( g) e( d) cis-! a-! e-! cis-! \kneeBeam a16. g''32 f16. e32
+    f16-! d-! a-! f-! d f' e16. d32 e16-! c-! g-! e-! c e' d16. c32
+    d16-! h-! gis-! e-! h d' c16. h32 c16-! a-! e-! c-! a8 e''
+    dis16.(\trill cis32) dis4 fis8 d16.(\trill cis32) d4 f8 %160
+    c16.(\trill h32) c8~ c16 e c a gis'8 a16 a, h4
+    a r r2\fermata \bar "||" %162 finis
+  }
+}

@@ -241,3 +241,63 @@ DomineDeusAltoLyrics = \lyricmode {
   mni -- po --
   tens. %122 finis
 }
+
+DomineFiliAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomineFili
+      \set Score.currentBarNumber = #123
+    R1*8 %130
+    \mvTr a'4\pE^\solo h8 a16([ gis)] a8 e a4~
+    a8 g16([ f)] e8. d16 c8. h16 a4
+    r2 r4 a'8 g!
+    fis4 g8 a h a r4
+    r2 r4 g8 h %135
+    e,[ fis16. g32] a8[ h16. c32] dis,8[ e16. fis32] h,8 h'
+    g fis16([ e)] fis4 e r
+    R1
+    r2 e4 fis8 gis
+    a h16([ c)] h8 a gis16([ fis)] e8 r4 %140
+    R1
+    r4 a8 g16 a f[ f e d] g[ g f e]
+    a[ a g f] h[ h a g] c8[ h16 a] g8[ f]
+    e[ d16 c] d4 c r
+    R1*2 %146
+    r4 e8 a16 g fis16.[ fis32 gis16. a32] h8[ a]
+    \appoggiatura a4 gis2^\critnote r16 e[ fis16. gis32] a8[ g?]
+    \appoggiatura g4 fis2 r16 d[ e16. fis32] g8[ f]
+    \appoggiatura f4 e2 r16 c[ d16. e32] f8[ e] %150
+    \appoggiatura e4 d2 r16 h[ c16. d32] e8[ d]
+    c[ a' b gis] a[ f] dis8.[ e16]
+    d4~ d16.[ f32 e16. d32] gis8[ a16. h32] h4
+    a r r2
+    R1*7 %161
+    R1\fermata \bar "||" %162 finis
+  }
+}
+
+DomineFiliAltoLyrics = \lyricmode {
+  Do -- mi -- ne Fi -- li, Fi -- %131
+  li u -- ni -- ge -- ni -- te,
+  u -- ni --
+  ge -- ni -- te, Je -- su,
+  Je -- su, %135
+  Je -- _ _ _ su,
+  Je -- su Chri -- ste.
+
+  Do -- mi -- ne
+  De -- us, A -- gnus De -- i, %140
+
+  Fi -- li -- us Pa -- _
+  _ _ _ _
+  _ _ tris,
+
+  Fi -- li -- us Pa -- _ %147
+  _ _ _
+  _ _ _
+  _ _ _ %150
+  _ _ _
+  _ _ _
+  _ _ _
+  tris. %154 finis
+}

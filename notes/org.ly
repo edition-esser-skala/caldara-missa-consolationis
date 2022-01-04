@@ -528,3 +528,94 @@ DomineDeusBassFigures = \figuremode {
   \bc <[6 5]>1
   r1 %122 finis
 }
+
+DomineFiliOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoDomineFili
+      \set Score.currentBarNumber = #123
+    \mvTr a'8\fE-\soloE c, d e c h c a
+    gis fis gis e a a' f d
+    g g h g c e, f g %125
+    c, e16 d c8 b a a cis a
+    d f g g, c e f f
+    h, e gis e a a, r a'
+    fis fis fis fis gis gis gis gis
+    a a c a e f e e, %130
+    a c\pE d e c8. h16 a4
+    c8 d e gis, a h c\fE a
+    d e16 f gis,8 e a h c\pE a
+    d c h a g d' r g,\fE
+    d' d e fis g d h'\pE g %135
+    c h a4 h8 a g16 fis e dis
+    e8 c' a h e,\fE fis g e
+    c' h a g16 fis h8 h, dis4
+    e8 c' a h e, e4\pE d8
+    c a d f e e\fE d c16 h %140
+    c8 a d dis e e gis e
+    a, h c\pE a d r e r
+    f r g r a r h r
+    c a f g c, h a\fE h16 c
+    d8 r e r f r g r %145
+    a r h r c a f g
+    c, h c\pE a d c h c16 d
+    e8 e gis e a, a c a
+    d d fis d g g h g
+    c, c e c f f, f'4~ %150
+    f8 e d4 e8 e gis e
+    f c d e f f f f
+    e e e e d c d e
+    a,\fE c d e c h c a
+    gis fis gis e a a' f d %155
+    g g h g c e, f g
+    c, e16 d c8 b a a cis a
+    d f g g, c e f f
+    h, e gis e a a, r a'
+    fis fis fis fis gis gis gis gis %160
+    a a c a e f e e,
+    a4 r r2\fermata \bar "||" %162 finis
+  }
+}
+
+DomineFiliBassFigures = \figuremode {
+  r8 \bo <[6 \l]> <6> <_+> <6>2 %123
+  q4. <_+>8 r4 <6>
+  r <6 5>4. <6>8 \bc <[6 5]>4 %125
+  r4. <4>8 \bo <[_+]>2
+  r4 <7>2 \bc <[7]>4
+  r8 <_+>2..
+  <6\\>2 <6 5!>4. <7!>8
+  r2 \bo <[_+]>8 <5> <4> <_+> %130
+  r <6> q <_+> <6>2
+  q4 <_+>8 <5> r4 <6>
+  r <6>8 <7 _+> r4 \bc <[6]>
+  <_+> \bo <[6]>8 \bc <[6\\]> r <_+>4.
+  <_+>2 r8 \bo <[_+]> \bc <[6]>4 %135
+  r <5>8 <6\\> \bo <[5+] _+>4 \bc <[6]>
+  r4 \bo <[6\\ 5]>8 <5+ _+>4. \bc <[6 \l]>4
+  r4 \bo <[6\\]> \bc <[5+] _+> <[6 5 _+]>
+  r \bo <[6\\ 5]>8 \bc <[5+ _+]> r4 <2+>8 <4+>
+  <6>4 <[6]> <_+> \bo <[2+]>8 <\tllur>16 <6\\> %140
+  \bc <[6]>4 <6> \bo <[_+]>2
+  r4 <6> <5> <6>
+  r2. <6>4
+  r <6>2.
+  <5>4 <6>2. %145
+  r4 <6>2 \bc <[6]>4
+  r4 <6> <_+>2
+  \bo <[4]>4 <6> <4> <6>
+  <4> <6> <4> <6>
+  <4> <6> <4-> \bc <[3]> %150
+  <6>8 <2> <6-> <5> <[_+]>2
+  r8 <[6]> <6-> <_+> <6>4 <6\\>
+  <7! _+>2 <4+>8 <6> \bo <[6 \l]> <_+>
+  r8 <6> <6> <_+> <6>2
+  q4. <_+>8 r4 <6> %155
+  r <6 5>4. <6>8 <6 5>4
+  r4. \bc <[4 \l]>8 <_+>2
+  r4 \bo <[7]>2 \bc q4
+  r8 <_+>2..
+  <6\\>2 <6 5!>4. <7->8 %160
+  r2 \bo <[_+]>8 <5> <4> \bc <[_+]>
+  r1%162 finis
+}
