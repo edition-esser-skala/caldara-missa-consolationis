@@ -3,6 +3,18 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+paperFourStaves = \paper {
+  system-system-spacing.basic-distance = #22
+  system-system-spacing.minimum-distance = #22
+  systems-per-page = #3
+}
+
+paperFiveStaves = \paper {
+  system-system-spacing.basic-distance = #30
+  system-system-spacing.minimum-distance = #30
+  systems-per-page = #2
+}
+
 \book {
   % \bookpart {
   %   \section "1" "KyrieB"
@@ -77,11 +89,7 @@
   % \bookpart {
   %   \subsection "Christe"
   %   \addTocEntry
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -192,73 +200,112 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Gloria"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \GloriaTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \GloriaTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \GloriaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \GloriaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \GloriaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \GloriaAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \GloriaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \GloriaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \GloriaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \GloriaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Gloria"
+    \subsection "Laudamus te"
     \addTocEntry
+    \paperFourStaves
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "trb"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \GloriaTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \GloriaTromboneII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \GloriaViolinoI
+              \LaudamusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \GloriaViolinoII
+              \LaudamusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \LaudamusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \GloriaAlto }
-          }
-          \new Lyrics \lyricsto Alto \GloriaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
-          }
-          \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \GloriaBasso }
-          }
-          \new Lyrics \lyricsto Basso \GloriaBassoLyrics
+          \new Lyrics \lyricsto Soprano \LaudamusSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \GloriaOrgano
+            \LaudamusOrgano
           }
         >>
-        \new FiguredBass { \GloriaBassFigures }
+        \new FiguredBass { \LaudamusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

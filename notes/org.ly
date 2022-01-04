@@ -280,3 +280,108 @@ GloriaBassFigures = \figuremode {
   <2> <5> <2> <5> <2> \bo <[6]> \bc <[6 5]>4
   r1 %15 finis
 }
+
+LaudamusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #16
+    \mvTr e4\fE-\soloE r r8 e
+    fis4 r r8 h
+    a4 r r8 a
+    dis,4 r r8 dis
+    e4 r r %20
+    h'8 h, r4 r
+    r8 e g a h h,
+    e4 r8 a\pE h h,
+    c h16 a g8 fis g a
+    h4 r r %25
+    h\fE r r
+    r8 e\pE g fis g e
+    a, a' r4 r
+    fis8 e d8. e16 fis8 d
+    g, g' r4 r %30
+    e8 d c4. cis8
+    d d, r4 r
+    R2.
+    r8 g' a g fis d
+    g e c a d d, %35
+    g4 r r8 d'\fE
+    e e, r4 r8 a'
+    g g, r4 r8 g'
+    c g h c d d,
+    g g, r4 r8 g'\pE %40
+    e d c c' h a
+    g g, r4 r
+    fis'8 fis h h, h' a
+    g16 a h8 r4 r
+    R2.*3 %47
+    r8 g a g fis e
+    dis16( cis) h8 r4 r
+    h'8 h, e4 a8 g %50
+    fis4. e8 fis d
+    g fis e2~
+    e4 dis8 cis dis h
+    e fis g a h c!
+    h4 g8 fis16 e a8 fis %55
+    g a h a h h,
+    e4 r r8 e\fE
+    fis4 r r8 h
+    a4 r r8 a
+    dis,4 r r8 dis %60
+    e4 r r
+    h'8 h, r4 r
+    r8 e g a h h,
+    e4 r r\fermata \bar "||" %64 finis
+  }
+}
+
+LaudamusBassFigures = \figuremode {
+  r2 r8 <6> %16
+  <6!>2 r8 <6\\>
+  <_!>2 r8 <7!>
+  \bo <[6]>2 r8 \bc <[\t]>
+  r2. %20
+  <6 4>8 <[5] _+> r2
+  r4 \bo <[6]> <4>8 \bc <[_+]>
+  r2 <6 4>8 <[5] _+>
+  r4 \bo <[6]>8 <6\\> <6> q
+  <4>4 \bc <[_+]>2 %25
+  <6 4>8 <[5] _+> r2
+  r4 <[6]>2
+  r2.
+  <[6]>
+  r %30
+  <6>4 r4. <7>8
+  r2.
+  r
+  r2 \bo <[6]>4
+  r <6>2 %35
+  r2.
+  <6!>2 r8 <6>
+  r2.
+  r4 <6>8 q4.
+  r2. %40
+  r2 <6>8 \bc <[6]>
+  r2.
+  <6\\>4 <[_+]>2
+  <6>8 <_+> r2
+  r2.*3 %47
+  r8 <6> <6!> <6> <6\\>4
+  \bo <[6]>8 \bc <[_+]> r2
+  <6 4>8 <[5] _+> r2 %50
+  <6 5>2.
+  r4 <6>2
+  <2>4 \bo <[6]>4. <_+>8
+  <3> q q <3+> q <3>
+  <_+>4 <6>2 %55
+  <6>4 \bc <[_+]>2
+  r r8 <6>
+  <6!>2 r8 <6\\>8
+  <_!>2 r8 <7!>
+  \bo <[6]>2 r8 \bc <[\t]> %60
+  r2.
+  <6 4>8 <[5] _+> r2
+  r4 \bo <[6]> <4>8 \bc <[_+]>
+  r2. %64 finis
+}

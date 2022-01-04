@@ -219,8 +219,7 @@ GloriaSopranoLyrics = \lyricmode {
   Pax, pax. %15 finis
 }
 
-% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
-% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
+
 % Gra -- ti -- as a -- gi -- mus ti -- bi
 % pro -- pter ma -- gnam glo -- ri -- am tu -- am,
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,
@@ -236,3 +235,83 @@ GloriaSopranoLyrics = \lyricmode {
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+
+LaudamusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoLaudamus
+      \set Score.currentBarNumber = #16
+    R2.*7 %22
+    r8 \mvTr h'\pE^\solo h([ c g)] fis
+    e4 e'8 dis e fis16 e
+    \appoggiatura e4 dis2 r4 %25
+    R2.
+    r4 e8( h4) c16([ d)]
+    c8[ a h a gis a]
+    d a4 fis16[ g] a8[ h16 c]
+    h8[ g a g fis g] %30
+    c4. e16[ d] c8 h
+    a4 r8 d d d
+    d4\trill c16([ d) e8] d16([ e) f8]
+    e16([ fis) g8] c,16([ d) e8] a,16([ h) c8]
+    h[ a16( g)] a4. g8 %35
+    g2 r4
+    R2.*3
+    r8 d' h a g4~ %40
+    g8 a16 h c8([ d16 e)] d8 c
+    h4 r d8 d
+    dis4. fis16[ e] dis8[ cis16 h]
+    e8[ h c h ais h]
+    r a[ h a gis a] %45
+    r g[ a g fis g]
+    r f[ g f e f]
+    r e[ f e dis] e
+    h'2 r4
+    r8 h g fis16([ e)] c'4~ %50
+    c8[ h16 a] d8[ c16 h] a8[ h16 c]
+    h8[ a16 g] c8[ h16 a] g8[ a16 h]
+    a8[ g16 fis] h8[ a16 g] fis8[ g16 a]
+    g8[ a h cis dis e]
+    dis[ cis16 h] e4. d?16[ c?] %55
+    h8[ a16 g] fis4. e8
+    e4 r r
+    R2.*6 %63
+    R2.\fermata \bar "||" %64 finis
+  }
+}
+
+LaudamusSopranoLyrics = \lyricmode {
+  Lau -- da -- mus %23
+  te, be -- ne -- di -- ci -- mus
+  te, %25
+
+  ad -- o --
+  ra --
+  _ _ _ _
+  _ %30
+  _ _ _ mus
+  te, glo -- ri -- fi --
+  ca -- _ _
+  _ _ _
+  _ _ mus %35
+  te.
+
+  Lau -- da -- mus te, __ %40
+  be -- ne -- di -- ci -- mus
+  te, ad -- o --
+  ra -- _ _
+  _
+  _ %45
+  _
+  _
+  _ mus
+  te,
+  glo -- ri -- fi -- ca -- %50
+  _ _
+  _ _ _
+  _ _ _
+  _
+  _ _ _ %55
+  _ _ mus
+  te. %57 finis
+}

@@ -126,3 +126,55 @@ GloriaViolinoII = {
     g16. h,32\f c16. h32 a8 fis' g,4 r\fermata \bar "||" %15 finis
   }
 }
+
+LaudamusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #16
+    h'4\fE r r8 c
+    a4 r r8 gis
+    a a, r4 r8 g'
+    fis h, r4 r8 fis'
+    g g, r h' c( h) %20
+    e( dis) fis( e) g( fis)
+    a( g4) fis16( e) e8 dis
+    e4 r r
+    R2.
+    r4 r8 h\fE c( h) %25
+    \once \slurDashed e( dis) fis( e) g( fis)
+    a( g) r4 r
+    r8 e,\p f( e) d( e)
+    R2.
+    r8 h c( h) a( h) %30
+    R2.
+    r4 r8 d e( d)
+    g( fis) a( g) h( a)
+    c( h) r4 r
+    R2. %35
+    r4 r r8 fis\f
+    g g, r4 r8 fis'
+    g d r4 r8 d'
+    c( h4) \once \slurDashed a16( g) \appoggiatura g8 fis4\trill
+    g r r %40
+    R2.
+    r8 g\p a( g) fis( g)
+    R2.
+    r8 dis e( dis) cis( dis)
+    a'-! c,-! d( c) h( c) %45
+    g'-! h,-! c( h) a( h)
+    f'-! a,-! h( a) g( a)
+    e'4 r r
+    r r8 h'\f c( h)
+    e( dis) r4 r %50
+    R2.*6 %56
+    h4\fE r r8 c
+    a4 r r8 gis
+    a a, r4 r8 g'
+    fis h, r4 r8 fis' %60
+    g g, r h' c( h)
+    e( dis) fis( e) g( fis)
+    a( g4) \once \slurDashed fis16( e) e8 dis
+    e4 r r\fermata \bar "||" %64 finis
+  }
+}
