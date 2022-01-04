@@ -56,3 +56,20 @@ KyrieBTromboneI = {
     g1\fermata \bar "|." %102 finis
   }
 }
+
+GloriaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoGloria
+    R1*6 %6
+    r4 c'8\fE h a g fis! e
+    d c h4 d g
+    g a8 a fis8. fis16 fis8 fis
+    g8. g16 g4 g2 %10
+    g g4 e
+    d8 d g, g e'4( d)
+    d r8 g\pE a4 g
+    fis e d8 d e d
+    d4 fis\fE^\critnote g r\fermata \bar "||" %15 finis
+  }
+}

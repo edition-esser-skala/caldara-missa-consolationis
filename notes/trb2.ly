@@ -57,3 +57,19 @@ KyrieBTromboneII = {
     d1\fermata \bar "|." %102 finis
   }
 }
+
+GloriaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoGloria
+    R1*7 %7
+    fis8\fE e d c h a g f
+    e4 a8 a a8. a16 a8 a
+    h8. h16 h4 e2 %10
+    d c~
+    c8 c h h a2
+    h4 r r2
+    R1
+    r4 d d r\fermata \bar "||" %15 finis
+  }
+}

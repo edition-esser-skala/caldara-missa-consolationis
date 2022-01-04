@@ -110,3 +110,41 @@ KyrieBAltoLyrics = \lyricmode {
   lei -- _ _
   son. %102 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr g'4.\fE^\tuttiE g8 g2
+    g4 g g2
+    g g~
+    g4 fis g2
+    R1*2 %6
+    r4 c8 h a g fis! e
+    d c h4 d g
+    g a8 a fis8. fis16 fis8 fis
+    g8. g16 g4 g2 %10
+    g g4 e
+    d8 d g, g e'4( d)
+    d r r2
+    R1
+    r4 fis g r\fermata \bar "||" %15 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a
+  in ex -- cel --
+  sis De --
+  _ o.
+
+  Et in ter -- ra pax, in %7
+  ter -- ra pax, pax, pax,
+  pax, pax ho -- mi -- ni -- bus, ho --
+  mi -- ni -- bus bo -- %10
+  nae vo -- lun --
+  ta -- tis, vo -- lun -- ta --
+  tis.
+
+  Pax, pax. %15 finis
+  }

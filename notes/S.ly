@@ -180,3 +180,59 @@ KyrieBSopranoLyrics = \lyricmode {
   son, e -- lei --
   son. %102 finis
 }
+
+GloriaSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr g'4.\fE^\tuttiE g8 g2
+    g4 g g2
+    g g(
+    a) g
+    R1*2 %6
+    g'8 f e d c h a g
+    fis!4 r g h
+    c cis8 cis d8. d16 d4
+    r d2 c4~ %10
+    c h4. h8 a g
+    fis4 g2 fis4
+    g r r2
+    R1
+    r4 d' h r\fermata \bar "||" %15 finis
+  }
+}
+
+GloriaSopranoLyrics = \lyricmode {
+  Glo -- ri -- a
+  in ex -- cel --
+  sis De --
+  o.
+
+  Et in ter -- ra pax, in ter -- ra %7
+  pax, pax, pax,
+  pax, pax ho -- mi -- ni -- bus
+  bo -- nae, __ %10
+  bo -- nae vo -- lun --
+  ta -- _ _
+  tis.
+
+  Pax, pax. %15 finis
+}
+
+% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
+% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
+% Gra -- ti -- as a -- gi -- mus ti -- bi
+% pro -- pter ma -- gnam glo -- ri -- am tu -- am,
+% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
+% De -- us Pa -- ter o -- mni -- po -- tens,
+% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
+% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+% Qui se -- des ad dex -- te -- ram Pa -- tris:
+% Mi -- se -- re -- re no -- bis.
+% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
+% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

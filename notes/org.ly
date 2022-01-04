@@ -244,3 +244,39 @@ KyrieBBassFigures = \figuremode {
   <[5] 3> <6 5> <4> <3>
   r1 %102 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoGloria
+    \mvTr g'8\fE-\tutti fis e d e d c h
+    e d c h c h a g
+    g' fis e d e d c h
+    c a d d, g4 r
+    R1*3 %7
+    r4 h'8 a g f e d
+    c h a4 d8 e fis d
+    g g, h g c d e c %10
+    g a h g c h c a
+    d d e e c c d d
+    g,4 r8 \mvTr g'4\pE-\solo f e8~
+    e d4 c h8 c d
+    g g, \mvTr d'\fE-\tutti d, g4 r\fermata \bar "||" %15 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r1
+  r
+  r
+  <6 5>
+  r1*3 %7
+  r1
+  r4 <_+>2.
+  r2 <9>4 <[6]> %10
+  <5 4> <[6]> <8 7> <\t 6>
+  <7>2 <6 5>
+  r2 <2>8 <5> <2> <5>
+  <2> <5> <2> <5> <2> \bo <[6]> \bc <[6 5]>4
+  r1 %15 finis
+}

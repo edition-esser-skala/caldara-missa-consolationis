@@ -11,6 +11,8 @@ tempoKyrie = \tempoMarkup "Andante"
 tempoChriste = \tempoMarkup "Allegro"
 tempoKyrieB = \tempoMarkup "[Tempo deest]"
 
+tempoGloria = \tempoMarkup "Allegro"
+
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

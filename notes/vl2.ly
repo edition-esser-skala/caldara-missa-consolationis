@@ -107,3 +107,22 @@ KyrieBViolinoII = {
     g1\fermata \bar "|." %102 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoGloria
+    R1*4
+    r16 d'\fE e16. fis32 g16 a32( fis) g16 a32( fis) g8 h16. h32 c,8 a'16. a32 %5
+    h,8 g'16. g32 a,8 fis'16. fis32 g,8 e c d
+    g,4 c'8-! h-! a-! g-! fis!-! e-!
+    d-! c-! h a g f' e d
+    c h a a' fis16 e d8 a'16. d32 d8
+    h16. g'32 g8 d16. g32 g8 e16. g32 g8 c,16. g'32 g8 %10
+    g8-! g-! g-! g-! e16. g32 g8 c,16. a'32 a8
+    a,16. fis'32 fis8 g,16. g'32 g8 a,16. g'32 g8 d,16. fis'32 fis8
+    g8 g, g'\p h16. h32 c,8 a'16. a32 h,8 g'16. g32
+    a,8 fis'16. fis32 g,8 e'16. e32 fis,8 g4 fis8
+    g16. h,32\f c16. h32 a8 fis' g,4 r\fermata \bar "||" %15 finis
+  }
+}
