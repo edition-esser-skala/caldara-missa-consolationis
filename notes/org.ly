@@ -148,3 +148,99 @@ ChristeBassFigures = \figuremode {
   <_+>4. <7 [_+]>8 <9 4> <8 3> <4> <_+>
   r1 %64 finis
 }
+
+KyrieBOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoKyrieB
+      \set Score.currentBarNumber = #65
+    \mvTr g'2\fE-\tutti a %65
+    fis g
+    << {
+      d' e
+      cis d
+    } \\ {
+      r8 fis, h4 g8 fis16 g e8 fis16 g
+      a8 e cis a' fis8. e16 d8 c?
+    } >>
+    h16 a g8 r e' a g fis e
+    d2 e %70
+    d4 \clef "treble_8" r8 h' e d cis h
+    a2 h
+    \clef bass g a
+    fis g r8 e a4 fis8 e16 fis d8 e16 fis
+    g8 d a' a, d4 r8 d %75
+    g f e d c2
+    d r8 d g4
+    e8 d16 e cis8 d16 e fis8 cis ais fis'
+    d8. cis16 h4 \clef treble << {
+      c''2 %80
+      a h8
+    } \\ {
+      e,2 %80
+      fis dis8
+    } >> \clef bass h, h'4
+    g8 fis16 g e8 fis16 g a4 a,
+    d2 g
+    r8 g c4 a8 g16 a fis8 g16 a
+    h4 e, h2 %85
+    e fis
+    dis e
+    d4 g e8 d16 e cis8 d16 e
+    fis8 cis ais fis' d4. cis16 h
+    fis'1 %90
+    h,4 r h8 a16 h g8 a16 h
+    c2 cis8 h16 cis a8 h16 cis
+    d2 \clef "treble_8" h'8. a16 g4
+    \clef treble << { a'2 } \\ { c,8 h16 c a8 h16 c } >> \clef bass d,2
+    e cis %95
+    d4 r8 h e d cis h
+    a2 h
+    \clef "treble_8" g' a8 \noBeam \clef bass a, a'4
+    fis8 e16 fis d8 e16 fis g8 d h g'
+    e d16 e c8 d16 e d2~ %100
+    d4 cis d2
+    g,1\fermata \bar "|." %102 finis
+  }
+}
+
+KyrieBBassFigures = \figuremode {
+  r1 %65
+  r
+  r
+  r
+  <[6]>
+  r %70
+  r
+  <_+>2 <5>
+  <5>4 <6>2.
+  <[6]>2 <6>
+  r8 <6\\> \bo <[_+]>4 \bc <[6]>2 %75
+  r4 \bo <[4]>8 \bc <[_+]> r2
+  r1
+  r2 r8 <6>4.
+  r2 \bo <[5+ _+]>
+  <6>1 %80
+  r2 r8 \bc <[_+ \l]>4.
+  <6>1
+  r
+  r8 <6>2..
+  <[7 _+]>2 <4>4 <_+> %85
+  <5> <6!>2.
+  <[6]>1
+  <6>2 \bo <[6\\]>
+  <5+ _+> <6>
+  \bc <[5+] _+>4 <6 4> <5+ \t> <\t _+> %90
+  r2 <6>
+  r2 \bo <[6]>4 \bc <[_+]>
+  r2. <6>4
+  r1
+  r2 <[6]> %95
+  r1
+  <_+>2 <5>
+  <5>4 <6> <_!>2
+  \bo <[6]>1
+  \bc q2 <7>4 <6 4> %100
+  <[5] 3> <6 5> <4> <3>
+  r1 %102 finis
+}
