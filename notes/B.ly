@@ -248,3 +248,93 @@ GratiasBassoLyrics = \lyricmode {
   _ _ ri -- am
   tu -- am. %78 finis
 }
+
+DomineDeusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #82
+    R1*2
+    \mvTr c1\fE^\tuttiE
+    g'2. f4 %85
+    e2 d4 c
+    d1
+    c
+    f2 e4( d)
+    e1 %90
+    a
+    g
+    r2 c,(
+    h2.) a4
+    g2 g'~ %95
+    g h~
+    h4 a g2
+    R1
+    d
+    e %100
+    fis
+    g2. fis8[ e]
+    d4 e d c
+    h2 a4 g
+    a2. a4 %105
+    g1
+    R
+    r2 g'(
+    e) a
+    d, g~ %110
+    g e
+    f d
+    r e(
+    a4 g) f2
+    g1 %115
+    a2 a,
+    h1
+    c2 c'~
+    c4 a h2
+    r\fermata e, %120
+    f g
+    c,\breve*1/2\fermata \bar "||" %122 finis
+  }
+}
+
+DomineDeusBassoLyrics = \lyricmode {
+  Do -- %84
+  mi -- ne %85
+  De -- _ _
+  _
+  us,
+  Rex coe --
+  le -- %90
+  _
+  stis,
+  De --
+  us
+  Pa -- _ %95
+  _
+  _ ter,
+
+  De --
+  us %100
+  Pa --
+  _ _
+  _ _ _ _
+  _ ter o --
+  mni -- po -- %105
+  tens,
+
+  De --
+  us
+  Pa -- _ %110
+  _
+  _ ter,
+  De --
+  us
+  Pa -- %115
+  _ _
+  _
+  _ _
+  _ ter
+  o -- %120
+  mni -- po --
+  tens. %122 finis
+}

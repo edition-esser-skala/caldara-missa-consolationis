@@ -430,3 +430,101 @@ GratiasBassFigures = \figuremode {
   r2. %80
   r %81 finis
 }
+
+DomineDeusOrgano = {
+  \relative c {
+    \clef treble
+    \key c \major \time 2/2 \tempoDomineDeus
+      \set Score.currentBarNumber = #82
+    << {
+      r2 c''~
+      c h
+    } \\ {
+      \mvTr c,1\fE-\tuttiE
+      g'2. f4
+    } >>
+    \clef bass c,1
+    g'2. f4 %85
+    e2 c
+    d1
+    c
+    f2 e4 d
+    e1 %90
+    a
+    g
+    r2 c,
+    h2. a4
+    g2 g'~ %95
+    g h~
+    h4 a g2
+    \clef "treble_8" e'1
+    \clef bass d,
+    e %100
+    fis
+    g2. fis8 e
+    d4 e d c
+    h2 a4 g
+    a1 %105
+    g
+    \clef "treble_8" c'4 h c a
+    h2 \clef bass g
+    e a
+    d, g~ %110
+    g e
+    f d
+    r e
+    a4 g f2
+    g1 %115
+    a2 a,
+    h1
+    c2 c'~
+    c4 a h2
+    c\fermata e, %120
+    f g
+    c,\breve*1/2\fermata \bar "||" %122 finis
+  }
+}
+
+DomineDeusBassFigures = \figuremode {
+  r1 %82
+  r
+  r
+  <5 4>2 <\t 3> %85
+  <[6]>1
+  <5>2. <6>4
+  r1
+  r2 \bo <[\t]>4 \bc <[6]>
+  <9 6>2 <8 \t> %90
+  <5> <6>
+  <7> <6>
+  r1
+  \bo <[6]>
+  <5>2 <6> %95
+  r \bc <[6]>
+  r1
+  <5>2 <6\\>
+  <_+>1
+  r %100
+  \bo <[6]>
+  r
+  <4>2 <_+>
+  <6>1
+  \bc <[7]>2 <6\\> %105
+  r1
+  \bo <9 [5]>2 \bc <8 [6]>
+  <[6]>1
+  <7>
+  <_!>2 <5> %110
+  <6> <[6]>
+  <6>1
+  r2 <6>
+  r1
+  <7>2 <6> %115
+  r2 <6>
+  <9>2 <8>
+  r1
+  <2>2 \bo <[6 \l]>
+  r <6> %120
+  \bc <[6 5]>1
+  r1 %122 finis
+}

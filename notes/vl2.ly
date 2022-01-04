@@ -178,3 +178,52 @@ LaudamusViolinoII = {
     e4 r r\fermata \bar "||" %64 finis
   }
 }
+
+DomineDeusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoDomineDeus
+      \set Score.currentBarNumber = #82
+    c1\fE
+    g'2. f4
+    e2 d4 c
+    d1 %85
+    c
+    f2 e4 d
+    e1
+    a
+    g %90
+    r2 c,
+    h2. a4
+    g2 g'~
+    g h~
+    h4 a g2 %95
+    R1
+    d
+    e
+    fis
+    g2. fis8 e %100
+    d4 e d c
+    h2 a4 g
+    a2. a4
+    g1
+    R %105
+    r2 g'
+    e a
+    d, g~
+    g e
+    f! d %110
+    r e
+    a4 g f2
+    g1
+    a2 a,
+    h1 %115
+    c2 c'~
+    c4 a h2
+    r e,
+    f g
+    c,\fermata g' %120
+    a g
+    g\breve*1/2\fermata \bar "||" %122 finis
+  }
+}

@@ -219,22 +219,6 @@ GloriaSopranoLyrics = \lyricmode {
   Pax, pax. %15 finis
 }
 
-
-
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
-
 LaudamusSoprano = {
   \relative c' {
     \clef treble
@@ -314,3 +298,109 @@ LaudamusSopranoLyrics = \lyricmode {
   _ _ mus
   te. %57 finis
 }
+
+DomineDeusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #82
+    r2 \mvTr c'~\fE^\tuttiE
+    c h
+    c e
+    d1 %85
+    g,2 c
+    a2. h4
+    c2 g
+    r f'~
+    f e~ %90
+    e4 d c2
+    d g~
+    g4 f e2
+    d2. c4
+    h1 %95
+    R
+    r2 d4 c
+    h2 a4 g
+    a1
+    g4( a) h( c) %100
+    d4. d8 d2
+    r g,~
+    g fis
+    g2. a8[ h]
+    c4 h c a %105
+    h2 d~
+    d c
+    r h
+    e1
+    d2. c4 %110
+    h2 c
+    R1
+    r2 e~
+    e f~
+    f e4 d %115
+    c1
+    d
+    e
+    d
+    c4\fermata g c2~ %120
+    c h
+    c\breve*1/2\fermata \bar "||" %122 finis
+  }
+}
+
+DomineDeusSopranoLyrics = \lyricmode {
+  Do -- %82
+  _
+  _ mi --
+  ne %85
+  De -- us,
+  Rex coe --
+  le -- stis,
+  De --
+  _ %90
+  _ us
+  Pa -- _
+  _ _
+  _ _
+  ter, %95
+
+  De -- us
+  Pa -- _ _
+  _
+  ter __ o -- %100
+  mni -- po -- tens,
+  De --
+  us
+  Pa -- _
+  _ _ _ _ %105
+  _ _
+  ter,
+  De --
+  us
+  Pa -- _ %110
+  _ ter,
+
+  Pa --
+  _
+  _ _ %115
+  ter
+  o --
+  mni --
+  po --
+  tens, o -- mni -- %120
+  po --
+  tens. %122 finis
+}
+
+
+% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
+% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+% Qui se -- des ad dex -- te -- ram Pa -- tris:
+% Mi -- se -- re -- re no -- bis.
+% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
+% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

@@ -314,36 +314,106 @@ paperFiveStaves = \paper {
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Gratias agimus tibi"
+  %   \addTocEntry
+  %   \paperThreeStaves
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \GratiasTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \GratiasTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \GratiasBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \GratiasBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \GratiasOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \GratiasBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 60 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Gratias agimus tibi"
+    \subsection "Domine Deus"
     \addTocEntry
-    \paperThreeStaves
+    \paper { page-count = #4 }
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DomineDeusTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DomineDeusTromboneII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DomineDeusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DomineDeusViolinoII
+            }
+          >>
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \GratiasTenore }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \DomineDeusSoprano }
           }
-          \new Lyrics \lyricsto Tenore \GratiasTenoreLyrics
+          \new Lyrics \lyricsto Soprano \DomineDeusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DomineDeusAlto }
+          }
+          \new Lyrics \lyricsto Alto \DomineDeusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \DomineDeusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \DomineDeusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \GratiasBasso }
+            \new Voice = "Basso" { \dynamicUp \DomineDeusBasso }
           }
-          \new Lyrics \lyricsto Basso \GratiasBassoLyrics
+          \new Lyrics \lyricsto Basso \DomineDeusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \GratiasOrgano
+            \DomineDeusOrgano
           }
         >>
-        \new FiguredBass { \GratiasBassFigures }
+        \new FiguredBass { \DomineDeusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 60 }
+      \midi { \tempo 2 = 120 }
     }
   }
 }

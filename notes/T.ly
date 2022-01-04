@@ -178,3 +178,93 @@ GratiasTenoreLyrics = \lyricmode {
   _ _ ri -- am
   tu -- am. %78 finis
 }
+
+DomineDeusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 2/2 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #82
+    R1*2
+    r2 \mvTr c~\fE^\tuttiE
+    c h %85
+    c e
+    d1
+    g,2 c
+    a2. h4
+    c2 g %90
+    r f'~
+    f e~
+    e4 d c2
+    d g~
+    g4 f e2 %95
+    d2. c4
+    h1
+    R
+    r2 d4 c
+    h2 a4 g %100
+    a1
+    g4( a) h( c)
+    d4. d8 d2
+    r g,~
+    g fis %105
+    g2. a8[ h]
+    c4 h c a
+    h2 d~
+    d c
+    r h %110
+    e1
+    d2. c4
+    h2 c
+    R1
+    r2 e~ %115
+    e f~
+    f e4 d
+    c1
+    d
+    e\fermata %120
+    d
+    c\breve*1/2\fermata \bar "||" %122 finis
+  }
+}
+
+DomineDeusTenoreLyrics = \lyricmode {
+  Do -- %84
+  _ %85
+  _ mi --
+  ne
+  De -- us,
+  Rex coe --
+  le -- stis, %90
+  De --
+  _
+  _ us
+  Pa -- _
+  _ _ %95
+  _ _
+  ter,
+
+  De -- us
+  Pa -- _ _ %100
+  _
+  ter __ o --
+  mni -- po -- tens,
+  De --
+  us %105
+  Pa -- _
+  _ _ _ _
+  _ _
+  ter,
+  De -- %110
+  us
+  Pa -- _
+  _ ter,
+
+  Pa -- %115
+  _
+  _ _
+  ter
+  o --
+  mni -- %120
+  po --
+  tens. %122 finis
+}
