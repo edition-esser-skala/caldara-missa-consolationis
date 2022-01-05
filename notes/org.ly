@@ -690,3 +690,78 @@ QuiTollisBassFigures = \figuremode {
   <6 4>
   <[5] 3> %193 finis
 }
+
+QuiSedesOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoQuiSedes
+      \set Score.currentBarNumber = #194
+    \mvTr h8\pE-\soloE cis d h e d d cis16 h
+    e8 d cis fis h, cis d h\fE %195
+    e d ais fis h cis d e
+    fis fis dis4 e8 e cis4
+    d8 d16 cis h8 d cis cis16. h32 ais8 fis
+    h h d e fis fis ais fis
+    r h, d h r fis' ais fis %200
+    r h, d h fis' g e fis
+    h, cis d h\pE e d e d
+    e d cis fis h, cis d h
+    cis^\critnote h cis a d e fis d
+    g,2 a~ %205
+    a4. h16 cis d e fis g a8 a,
+    d d\fE fis g a a fis fis
+    g g, g' gis a a cis a
+    r d, fis d r a cis a
+    r fis' g d a' h a a, %210
+    d cis d\pE e fis e d cis
+    d h d h r fis' ais fis
+    r h, d h r fis' ais fis
+    r h, d h fis' fis dis4
+    e8 e cis4 d8 d16 cis h8 d %215
+    cis h ais fis h h d h
+    fis4 r8 g fis4 r8 g
+    fis e fis4 h8 cis d h\fE
+    e d ais fis h cis d e
+    fis fis dis4 e8 e cis4 %220
+    d8 d16 cis h8 d cis cis16. h32 ais8 fis
+    h h d e fis fis ais fis
+    r h, d h r fis' ais fis
+    r h, d h fis' g e fis
+    h,2 r\fermata \bar "||" %225 finis
+  }
+}
+
+QuiSedesBassFigures = \figuremode {
+  r2 <6!>8 <[6]>4. %194
+  r4 <7>8 <[_+]> r2 %195
+  <6!>8 <6> \bo <[6]> \bc <[_+]> r4. <6>8
+  <[_+]>4 <5!> <_+> <6 5!>
+  r4. \bo <[6]>8 <5>4 <6>8 <_+>
+  r4 <6> <_+>2
+  r2 r8 <_+>4. %200
+  r2 <_+>4 <6>8 \bc <[_+]>
+  r2 <6!>8 <6> <6!> <6>
+  r4 <7>8 <_+> r2
+  <7>4 <6> <9> <[6]>
+  <9> <8> <5 4> <7 3> %205
+  <7>4 <6 4>8 <5 3> r2
+  r4 <[6]>2 <6 5!>4
+  r4. \bo <[6]>8 \bc <[_+]>2
+  r1
+  r8 <[6]>2.. %210
+  r4. <6>8 \bo <[_+]>4 <6>8 <6\\>
+  <6>2 r8 <_+>4.
+  r2 r8 <_+>4.
+  r2 \bc <[_+]>4 <6 5!>
+  <_+> <6 5!> r2 %215
+  \bo <[5]>4 <6>8 <_+> r4 \bc <[6]>
+  <_+>4. <6\\>8 <_+>4. <6\\>8
+  \bo <[_+]>8 <5> <_+>2 \bc <[6]>4
+  <6!>8 <6> \bo <[6]> <_+> r4 \bc <[6]>8 <6>
+  <[_+]>4 <5!> <_+> <6 5!> %220
+  r4. \bo <[6]>8 <5>4 <6>8 <_+>
+  r2 <_+>
+  r2 r8 <_+>4.
+  r2 <_+>4 <6>8 \bc <[_+]>
+  r1 %225 finis
+}

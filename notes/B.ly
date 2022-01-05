@@ -407,3 +407,52 @@ QuiTollisBassoLyrics = \lyricmode {
   _ %190
   stram. %191 finis
 }
+
+QuiSedesBasso = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \autoBeamOff \tempoQuiSedes
+      \set Score.currentBarNumber = #194
+    r4 r8 \mvTr h'\pE^\solo c16([ ais)] h8 r fis
+    g g16 fis e8 fis16 e d8.([ cis16)] h4 %195
+    R1*6 %201
+    r4 r8 h' c16([ ais)] h8 r fis
+    g g16 fis e8 fis16 e d([ cis)] h8 h'4~
+    h8 h a! g fis8.[ g16] a4~
+    a8[ h16 a] g8[ fis] e8.[ fis16] g4~ %205
+    g8[ a16 g] fis8[ e] fis[ e16 d] a'4
+    d, r r2
+    R1*3 %210
+    r4 d'8 cis16([ h)] ais8 ais h cis
+    fis,1
+    fis
+    r4 h16([ d)] cis([ h)] ais[ gis fis8] a16[ c h a]
+    gis[ fis e8] g16[ h a g] fis[ e] d8 d' fis, %215
+    e16.[ d32 e8] cis'[ e,] d16.[ cis32 d8] h'[ d,]
+    cis[ ais' h eis,] fis[ ais h] eis,
+    fis16.[( g32 e16. g32] fis4) h,2
+    R1*6 %224
+    R1\fermata \bar "||" %225 finis
+  }
+}
+
+QuiSedesBassoLyrics = \lyricmode {
+  Qui se -- des ad %194
+  dex -- te -- ram, dex -- te -- ram Pa -- tris, %195
+
+  qui se -- des ad %202
+  dex -- te -- ram, dex -- te -- ram Pa -- tris: Mi --
+  se -- re -- re no -- _
+  _ _ _ %205
+  _ _ _
+  bis,
+
+  mi -- se -- re -- re, mi -- se -- %211
+  re --
+  re,
+  mi -- se -- re -- _
+  _ _ _ re, mi -- se -- %215
+  re -- _ _ _
+  _ _ re
+  no -- bis. %218 finis
+}

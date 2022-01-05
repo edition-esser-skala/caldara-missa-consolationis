@@ -18,8 +18,10 @@ tempoDomineDeus = \tempoMarkup "Canone"
 tempoDomineFili = \tempoMarkup "Andante"
 tempoQuiTollis = \tempoMarkup "Grave"
   tempoSuscipe = \tempoMarkup "Allegretto"
+tempoQuiSedes = \tempoMarkup "Andante"
 
 
+\include "notes/fag.ly"
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"
