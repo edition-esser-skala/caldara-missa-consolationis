@@ -273,3 +273,42 @@ DomineFiliViolinoI = {
     a r r2\fermata \bar "||" %162 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #163
+    R1
+    r2 r4 e'\fE
+    c gis a h %165
+    c c2 h4~
+    h8 a16 g a4 h2\fermata
+    r2 r4 h8 h
+    g4 g r h8 h
+    c4 c r e~ %170
+    e8 e d d cis2
+    dis8( e) fis( e) dis( e) fis( e)
+    dis2\trill r4 e
+    e e r8 fis fis fis
+    g( a) h( a) g( a) h( a) \noBreak %175
+    g2\trill r\fermata \bar "||"
+    \time 3/4 \tempoSuscipe r8 a fis g a fis
+    r e cis d e cis
+    r h g a h g
+    r fis' d e fis d %180
+    r cis ais h cis ais
+    r fis' d e fis d
+    r fis d e fis d
+    r h' g a h g
+    r h g a h g %185
+    e4-! a-! d,-!
+    cis8 e cis d e cis
+    r fis d e fis d
+    cis h a4 d~
+    d cis2 %190
+    d8 a fis g a fis
+    h d h cis? d h
+    \appoggiatura h4 a2.\fermata\trill \bar "||" %193 finis
+  }
+}

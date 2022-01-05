@@ -16,6 +16,8 @@ tempoLaudamus = \tempoMarkup "Andante"
 tempoGratias = \tempoMarkup "Allegro"
 tempoDomineDeus = \tempoMarkup "Canone"
 tempoDomineFili = \tempoMarkup "Andante"
+tempoQuiTollis = \tempoMarkup "Grave"
+  tempoSuscipe = \tempoMarkup "Allegretto"
 
 
 \include "notes/trb1.ly"

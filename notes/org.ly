@@ -619,3 +619,74 @@ DomineFiliBassFigures = \figuremode {
   r2 \bo <[_+]>8 <5> <4> \bc <[_+]>
   r1%162 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #163
+    r4 \mvTr h'\fE-\tuttiE-! g-! dis
+    e fis g gis
+    a e \clef "treble_8" c' \clef bass e, %165
+    c a h2
+    c h\fermata
+    r2 r4 h
+    c2 r4 d
+    c2 r4 cis %170
+    h2 fis
+    h r
+    r r4 e
+    cis2 r8 c c c
+    h2 r \noBreak %175
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSuscipe d4 fis d \noBreak
+    a cis a
+    e' g e
+    h d h %180
+    fis' ais fis
+    R2.*2
+    r4 g g
+    e2 e4 %185
+    cis2 d4
+    a2.~
+    a~
+    a2 gis4
+    a2. %190
+    d~
+    d
+    d\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r2. <13+>4 %163
+  <10> <6\\> <6> <\t>
+  r <_+> <6> <_+> %165
+  <6> \bo <[8] 6!>8 <7! 5> <9 5+ _+>4 \bc <[8] 6 \t>
+  <7> <6> <[5+] _+>2
+  r2. <6 [_+]>4
+  r2. <6 4+ _!>4
+  <6>2. <6\\>4 %170
+  <5+ 4> <\t _!> \bo <[5+] 4> \bc <[\t] _+>
+  <[5+] _+>1
+  r2. <_+>4
+  <[6]>2 r8 <6 4+ 2>4.
+  <6>1 %175
+  r
+  r2.
+  <[_+]>
+  <_!>
+  r %180
+  <[5+] _+>
+  r2.*2
+  r2.
+  r %185
+  <6 5>
+  <[5] _+>
+  <6 4>
+  <[5] _+>2 <6 5>4
+  <4> <_+>2 %190
+  r2.
+  <6 4>
+  <[5] 3> %193 finis
+}

@@ -227,3 +227,42 @@ DomineDeusViolinoII = {
     g\breve*1/2\fermata \bar "||" %122 finis
   }
 }
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #163
+    r2 r4 h'\fE
+    g dis e e
+    e2 e4 e %165
+    e a8 g! fis4 g~
+    g fis8 e fis2\fermata
+    r4 fis8 fis g4 g
+    r g8 g gis2
+    a4 a8 a ais2 %170
+    h8 fis h2 ais4
+    h8( cis) dis( cis) h( cis) dis( cis)
+    h2\trill r4 gis
+    a a r8 a a a
+    h( c) d( c) h( c) d( c) \noBreak %175
+    h2\trill r\fermata \bar "||"
+    \time 3/4 \tempoSuscipe r8 fis' d e fis d \noBreak
+    r cis a h cis a
+    r g e fis g e
+    r d' h cis d h %180
+    r ais fis gis ais fis
+    r d' h cis d h
+    r d h cis d h
+    r d h c d h
+    r g' e fis g e %185
+    a,4-! a-! a-!
+    a8 cis a h cis a
+    r a fis g a fis
+    e d cis4 h'
+    e, e2 %190
+    d8 fis d e fis d
+    g h g a h g
+    \appoggiatura g4 fis2.\trill\fermata \bar "||" %193 finis
+  }
+}

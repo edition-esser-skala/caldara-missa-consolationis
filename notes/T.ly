@@ -268,3 +268,69 @@ DomineDeusTenoreLyrics = \lyricmode {
   po --
   tens. %122 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #163
+    R1*2
+    r4 \mvTr e\fE^\tuttiE c( gis) %165
+    a f'8([ e)] dis4. dis8
+    e2 dis\fermata
+    r r4 dis8 dis
+    e4 e r f8 f
+    e4 e r e8 e %170
+    fis!4 fis fis2
+    fis r
+    r r4 h,
+    a a r8 a a a
+    g4 g r2 \noBreak %175
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSuscipe d'4. d8 d4 \noBreak
+    cis4. cis8 cis4
+    h4. h8 h4
+    h4. h8 h4 %180
+    ais4. ais8 ais4
+    R2.*2
+    r4 h h
+    h2 h4 %185
+    a2 a4
+    a8[ cis a h cis a]
+    r a[ fis g a fis]
+    a2 h4
+    a2. %190
+    a2 r4
+    R2.
+    R\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %165
+  lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se -- %170
+  re -- re no --
+  bis.
+  Qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %175
+
+  Su -- sci -- pe,
+  su -- sci -- pe,
+  su -- sci -- pe,
+  su -- sci -- pe, %180
+  su -- sci -- pe
+
+  de -- pre -- %184
+  ca -- ti -- %185
+  o -- nem
+  no --
+  _
+  _ _
+  _ %190
+  stram. %191 finis
+}

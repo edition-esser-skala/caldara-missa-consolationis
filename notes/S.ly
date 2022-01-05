@@ -392,11 +392,76 @@ DomineDeusSopranoLyrics = \lyricmode {
   tens. %122 finis
 }
 
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #163
+    R1
+    r2 r4 \mvTr e'\fE^\tuttiE
+    c( gis) a h %165
+    c c2 h4~
+    h8[ a16 g] a4 h2\fermata
+    r2 r4 h8 h
+    g4 g r h8 h
+    c4 c r e~ %170
+    e8 e d d cis2
+    dis r
+    r4 h gis gis
+    r8 a a a fis2
+    g r \noBreak %175
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSuscipe a4. a8 a4 \noBreak
+    a4. a8 a4
+    g4. g8 g4
+    fis4. fis8 fis4 %180
+    fis4. fis8 fis4
+    d'2 d4
+    h2 h4
+    g2.~
+    g~ %185
+    g2 fis4
+    e8[ e' cis d e cis]
+    r fis[ d e fis d]
+    cis2 d4~
+    d cis2 %190
+    d r4
+    R2.
+    R\fermata \bar "||" %193 finis
+  }
+}
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui %164
+  tol -- lis pec -- %165
+  ca -- ta mun --
+  _ di:
+  Mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- %170
+  se -- re -- re no --
+  bis.
+  Qui tol -- lis
+  pec -- ca -- ta mun --
+  di: %175
+
+  Su -- sci -- pe,
+  su -- sci -- pe,
+  su -- sci -- pe,
+  su -- sci -- pe, %180
+  su -- sci -- pe
+  de -- pre --
+  ca -- ti --
+  o --
+  %185
+  nem
+  no --
+  _
+  _ _
+  _ %190
+  stram. %191 finis
+}
+
 % Qui se -- des ad dex -- te -- ram Pa -- tris:
 % Mi -- se -- re -- re no -- bis.
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
