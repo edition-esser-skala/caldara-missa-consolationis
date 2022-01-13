@@ -515,38 +515,89 @@ paperFiveStaves = \paper {
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Qui sedes"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #3
+  %   }
+  %   \score {
+  %     <<
+  %       \new Staff {
+  %         \set Staff.instrumentName = \markup \center-column { "fag" "solo" }
+  %         \QuiSedesFagotto
+  %       }
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \QuiSedesBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \QuiSedesBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuiSedesOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuiSedesBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 75 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Qui sedes"
+    \subsection "Quoniam"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #3
-    }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "fag" "solo" }
-          \QuiSedesFagotto
-        }
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuoniamViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuoniamViolinoII
+            }
+          >>
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuiSedesBasso }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
           }
-          \new Lyrics \lyricsto Basso \QuiSedesBassoLyrics
+          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
+          }
+          \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
+          }
+          \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuiSedesOrgano
+            \QuoniamOrgano
           }
         >>
-        \new FiguredBass { \QuiSedesBassFigures }
+        \new FiguredBass { \QuoniamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 75 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

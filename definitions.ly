@@ -19,6 +19,7 @@ tempoDomineFili = \tempoMarkup "Andante"
 tempoQuiTollis = \tempoMarkup "Grave"
   tempoSuscipe = \tempoMarkup "Allegretto"
 tempoQuiSedes = \tempoMarkup "Andante"
+tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/fag.ly"

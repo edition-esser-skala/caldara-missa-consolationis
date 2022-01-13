@@ -462,6 +462,103 @@ QuiTollisSopranoLyrics = \lyricmode {
   stram. %191 finis
 }
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #226
+    R2.*12 %237
+    r8 \mvTr a'\pE^\soloE fis[ e16 d] a'8[ d]
+    cis8. h16 a4 r
+    R2. %240
+    r4 r8 a h a
+    h a g2
+    fis r4
+    R2.*3 %246
+    r8 e'4 fis d8~
+    d e4 cis8 d8. cis16
+    h4 r r
+    R2. %250
+    r8 h cis([ h)] cis dis
+    e2 d4~
+    d cis2
+    h r4
+    r cis8[ h] cis4~ %255
+    cis fis8[ e d cis]
+    h2.
+    gis4 e'8[ d cis h]
+    a2.
+    fis4 d'8[ cis h a] %260
+    gis4 e'8[ d] cis([ h)]
+    cis4( h2)
+    a r4
+    R2.*7 %270
+    d8. cis16 h8 a g fis
+    fis4 e r
+    R2.
+    r4 r d'
+    d c c %275
+    c8. h16 h4 g8 fis
+    e8 e4 fis g8~
+    g a4 h cis8
+    d e cis2
+    d r4 %280
+    R2.*3
+    r8 fis4 d8. fis16[ e d]
+    cis8 e4 g,8. h16[ a g] %285
+    fis8 a4 fis8. a16[ g fis]
+    e8[ fis g a h cis]
+    d e cis2
+    d2.
+    R2.*11 %300
+    R2.\fermata \bar "||" %301 finis
+  }
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- _ _ %238
+  _ ni -- am
+  %240
+  tu so -- lus,
+  so -- lus san --
+  ctus,
+
+  tu so -- lus, __ %247
+  so -- lus Do -- mi --
+  nus,
+  %250
+  tu so -- lus al --
+  tis -- _
+  si --
+  mus,
+  Je -- _ %255
+  _
+  _
+  su, Je --
+  _
+  su, Je -- %260
+  _ _ su
+  Chri --
+  ste.
+
+  Quo -- ni -- am tu so -- lus %271
+  san -- ctus,
+
+  tu
+  so -- lus al -- %275
+  tis -- si -- mus, Je -- su,
+  Je -- _ _ _
+  _ _ su,
+  Je -- su Chri --
+  ste, %280
+
+  Je -- _ _ %284
+  _ _ _ _ %285
+  _ _ _ _
+  _
+  _ su Chri --
+  ste. %289 finis
+}
+
+
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
