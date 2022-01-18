@@ -332,3 +332,108 @@ QuoniamViolinoII = {
     d4 r r\fermata \bar "||" %301 finis
   }
 }
+
+CumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    R1*8 %309
+    r4 g'\fE e2 %310
+    h c4. c8
+    g'4 r8 g fis fis16 fis h8 h
+    e,4. a8 d,4 g~
+    g fis r8 g a h
+    a d,4 c8 h h'4 a16 g %315
+    fis8 d a'4. d,8 g4~
+    g8 a16 g f2 e4
+    d d g2
+    g2. g4
+    g r a4. d,8 %320
+    g4. a16 g fis4 g8. fis16
+    e4 fis e2
+    fis4 r r r8 g
+    fis fis16 fis h8 h e,4. a8
+    d,4 r r8 g a h %325
+    a d,4 c8 h h'4 a16 g
+    fis8 d r fis g g16 g c8 c
+    fis,4 fis r2
+    r8 dis e fis e h'4 a16 g
+    fis4 r a4. d,8 %330
+    g4. a16 g fis4 fis
+    d2 ais
+    h4. h8 fis'4 r8 e
+    d d16 d g8 g cis,4. fis8
+    h,4 r r8 g' a h %335
+    a4  a r8 g a h
+    a d,4 c8 h h'4 a16 g
+    fis8 d r4 g2
+    g2. g4
+    g2 a4. d,8 %340
+    g4. a16 g fis4 g8 g
+    e e16 e a8 g16 fis e2
+    d d
+    r8 fis g a g h4 a16 g
+    fis4 g2 fis4 %345
+    g1\fermata \bar "|." %346 finis
+  }
+}
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoCredo
+    h'4\fE r r
+    g8 a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    a' a4 a a8~ %5
+    a a g fis g4~
+    g8 a fis2
+    g8 a h cis d e
+    fis e d4 e
+    d8 e fis g a a, %10
+    h cis d e fis fis,
+    d' e fis g a a,
+    d,4 d4. cis8
+    d h' a g fis e
+    d4 h' ais %15
+    r h ais
+    r h cis
+    r fis, fis
+    fis fis e
+    fis8 gis ais h cis ais %20
+    h cis d e fis d
+    h4 h h
+    ais ais cis
+    h h ais
+    h h' a!~ %25
+    a g fis~
+    fis e dis
+    r r8 e, g h
+    dis4 r8 h, dis fis
+    g4 r8 e g h %30
+    e4^\critnote r8 fis, h dis
+    e4 r8 e, gis h
+    c4 r8 a c e
+    fis4 r8 a, d fis
+    g, a h c d d, %35
+    e fis g a h h,
+    c d e fis g g,
+    c a d c d d
+    g,4 r r
+    r d''8 d e e %40
+    c c d8. c16 h4
+    g8 a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    fis' e' fis, dis' fis, dis' %45
+    e, e g h e4
+    R2.*5 %51
+    h8\fE c d e fis fis,
+    g a h c d d,
+    e fis g a h h,
+    a' g' a, fis' d, fis' %55
+    g,, g' h d g4\fermata \bar "||" %56 finis
+  }
+}

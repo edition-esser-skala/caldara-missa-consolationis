@@ -376,3 +376,103 @@ QuoniamViolinoI = {
     d4 r r\fermata \bar "||" %301 finis
   }
 }
+
+CumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCumSancto
+    \set Score.currentBarNumber = #302
+    R1*12 %313
+    r4 d'\fE h2
+    fis g4. g8 %315
+    d'4 r8 c h h16 h e8 e
+    a,4. d8 g,4 c~
+    c h r8 c d e
+    d g,4 f8 e e'4 d16 c
+    h8 g e'4. a,8 d4~ %320
+    d8 e16 d c2 h4
+    a2 h4 a
+    a r r2
+    r4 d4. g,8 c4~
+    c8 d16 c h4 d2^\critnote %325
+    d2. d4
+    d r8 d h h16 h e8 e
+    e4 dis r8 e fis g
+    fis h,4 a8 g g'4 fis16 e
+    dis8 h e4. a,8 d4~ %330
+    d8 e16 d cis8 h ais h4 ais8
+    h4 r r2
+    R1*2
+    r4 d h2 %335
+    fis g4. g8
+    d'4 d d4. d8
+    d2 r8 c d e
+    d g,4 f8 e e'4 d16 c
+    h8 g e'4. a,8 d4~ %340
+    d8 e16 d c2 h8 h
+    a a16 a d8 d g,4. c8
+    fis,8. g16 a4 r8 g a h
+    a d4 c8 h d4 c16 h
+    a4 h a2 %345
+    h1\fermata \bar "|." %346 finis
+  }
+}
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoCredo
+    d'4\fE r r
+    g,8 a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    c' c4 c c8~ %5
+    c c h a h4
+    a a2
+    h8 c d e fis g
+    a g fis4 e
+    d8 e fis g a a, %10
+    h cis d e fis fis,
+    d' e fis g a a,
+    h4 e,2
+    fis8 g fis e d cis
+    h4 d' cis %15
+    r d cis
+    r d cis
+    r d cis
+    h8 cis h2
+    ais8 h cis d e fis %20
+    d cis h cis d h
+    e e4 e e8~
+    e e4 e e8
+    d4 cis2
+    h4 r r %25
+    h'2 a4
+    g2 fis4
+    r8 e, g h e4
+    r8 h dis fis h4
+    r8 e,, g h e4 %30
+    r8 h dis fis h4
+    r8 e,, gis h e4
+    r8 a, c e a4
+    r8 d, fis a d4
+    R2. %35
+    g,,8 a h c d d,
+    e fis g a h h,
+    c a d c d d
+    g,4 r r
+    r d''8 d e e %40
+    c c d8. c16 h4
+    g8 a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    fis' e' fis, dis' fis, dis' %45
+    e, e g h e4
+    R2.*5 %51
+    h8\fE c d e fis fis,
+    g a h c d d,
+    e fis g a h h,
+    a' g' a, fis' d, fis' %55
+    g,, g' h d g4\fermata \bar "||" %56 finis
+  }
+}

@@ -160,3 +160,104 @@ QuiTollisTromboneI = {
     R\fermata \bar "||" %193 finis
   }
 }
+
+CumSanctoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    R1*8 %309
+    r4 g'\fE e2 %310
+    h c4. c8
+    g'4 r8 g fis fis16 fis h8 h
+    e,4. a8 d,4 g~
+    g fis r8 g a h
+    a d,4 c8 h h'4 a16 g %315
+    fis8 d a'4. d,8 g4~
+    g8 a16 g f2 e4
+    d d g2
+    g2. g4
+    g r a4. d,8 %320
+    g4. a16 g fis4 g8. fis16
+    e4 fis e2
+    fis4 r r r8 g
+    fis fis16 fis h8 h e,4. a8
+    d,4 r r8 g a h %325
+    a d,4 c8 h h'4 a16 g
+    fis8 d r fis g g16 g c8 c
+    fis,4 fis r2
+    r8 dis e fis e h'4 a16 g
+    fis4 r a4. d,8 %330
+    g4. a16 g fis4 fis
+    d2 ais
+    h4. h8 fis'4 r8 e
+    d d16 d g8 g cis,4. fis8
+    h,4 r r8 g' a h %335
+    a4  a r8 g a h
+    a d,4 c8 h h'4 a16 g
+    fis8 d r4 g2
+    g2. g4
+    g2 a4. d,8 %340
+    g4. a16 g fis4 g8 g
+    e e16 e a8 g16 fis e2
+    d d
+    r8 fis g a g h4 a16 g
+    fis4 g2 fis4 %345
+    g1\fermata \bar "|." %346 finis
+  }
+}
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoCredo
+    g'2\f fis4
+    e e d^\critnote
+    c2 h4
+    r r g'
+    a a2 %5
+    a4 g8 fis g4~
+    g8 a fis2
+    g r4
+    r a a
+    fis4. g8 a4 %10
+    g4. g8 fis4
+    fis4. g8 a4
+    g8 fis e4. e8
+    fis2 r4
+    r fis fis %15
+    fis fis fis
+    fis2 fis4
+    fis4. fis8 fis4
+    fis8 fis fis4 e
+    fis2 r4 %20
+    R2.
+    h8 a g a h g
+    fis4 fis fis8 fis
+    fis2 fis4
+    fis2 r4 %25
+    R2.*2
+    g4. g8 g g
+    fis4 fis fis8 fis
+    g4. g8 g4 %30
+    g4. fis8 fis4
+    R2.
+    e4 e a
+    fis8. fis16 fis4 r
+    R2.*4 %38
+    d4. d8 e e
+    e4 d g8 g %40
+    e e a a g4
+    g g fis
+    e4. e8 e4
+    e4. e8 e4
+    e dis2 %45
+    e4 r r
+    R2.*5 %51
+    r4 h'\fE a
+    g g g
+    g g g~
+    g fis2 %55
+    g2.\fermata \bar "|." %56 finis
+  }
+}

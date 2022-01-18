@@ -20,6 +20,9 @@ tempoQuiTollis = \tempoMarkup "Grave"
   tempoSuscipe = \tempoMarkup "Allegretto"
 tempoQuiSedes = \tempoMarkup "Andante"
 tempoQuoniam = \tempoMarkup "Allegro"
+tempoCumSancto = \tempoMarkup "[Tempo deest]"
+
+tempoCredo = \tempoMarkup "Allegro"
 
 
 \include "notes/fag.ly"

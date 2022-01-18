@@ -428,3 +428,211 @@ QuoniamTenoreLyrics = \lyricmode {
   su Chri --
   ste. %289 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    R1*4 %305
+    r4 \mvTr d\fE^\tuttiE h2
+    fis g4. g8
+    d'4 r8 c h h16 h e8 e
+    a,4.( d8) g,4 c~
+    c h r8 c[ d e] %310
+    d g,4 f8 e[ e' d c]
+    h g e'4. a,8 d4~
+    d8[ e16 d] c2 h4
+    a a g8[ h a g]
+    d'8.[ c16] h8[ a] g[ fis] e4 %315
+    d8.[ e16] fis4 g4. c8
+    f,8.[ g16] a8[ h] c[ c,16 d] e8[ fis?]
+    g4 g r2
+    r4 d'4. g,8 c[ d16 e]
+    d8.[ c16] h4 a r8 fis'~ %320
+    fis[ h,] e[ fis16 e] d4. e16[ d]
+    cis4 d2 cis4
+    d4 r8 c h h16 h e8 e
+    a,4( d) g, r
+    r d' h2 %325
+    fis g4. g8
+    d'4 r8 d g, g16 g g8 a
+    h4 h h2
+    h2. h4
+    h2 r4 fis'~ %330
+    fis8[ h,] e4. d8 cis4
+    h8 h[ cis d] cis fis,4 e8
+    d d'4 cis16[ h] ais8 fis cis'4~
+    cis8[ fis,] h4. cis16[ h] a4~
+    a8[ g] fis4 r2 %335
+    r4 d' h2
+    fis g4. g8
+    d' d h h16 h e8 e d([ c)]
+    d4 d4. g,8 c[ d16 e]
+    d8.[ c16] h4 a r8 fis'~ %340
+    fis[ h,] e4 d4. e8
+    c4 r8 d4 g,8 c4~
+    c8[ a h c] h[ c16 h] a8[ g]
+    fis4 d' d4. d8
+    d4 d8 d d d d4 %345
+    d1\fermata \bar "|." %346 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum San -- %306
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- %310
+  _ _ _ _
+  _ men, a -- _ _
+  _ men,
+  a -- men, a --
+  _ _ _ _ %315
+  _ _ _ _
+  _ _ _ _
+  _ men,
+  a -- _ _
+  _ _ men, a -- %320
+  _ _ _
+  _ _ _
+  men, in glo -- ri -- a De -- i
+  Pa -- tris,
+  cum San -- %325
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, in
+  glo -- ri --
+  a, a -- %330
+  _ men, a --
+  men, a -- _ _ _
+  _ _ _ _ men, a --
+  _ _ _
+  men, %335
+  cum San --
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i Pa --
+  tris, a -- _ _
+  _ _ men, a -- %340
+  _ _ _
+  men, a -- _ _
+  _ _
+  men, in glo -- ri --
+  a De -- i Pa -- tris, a -- %345
+  men. %346 finis
+}
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoCredo
+    \mvTr d2\fE^\tuttiE d4
+    h h h
+    g2 g4
+    r r e'
+    d d2 %5
+    d4 d d(
+    e) d2
+    d r4
+    r d cis
+    d4. d8 d4 %10
+    d4. d8 d4
+    d4. d8 d4
+    d d4. cis8
+    d2 r4
+    r d cis %15
+    d d cis
+    d2 cis4
+    d4. d8 cis4
+    d8 cis d4( h)
+    cis2 r4 %20
+    R2.
+    h4. h8 h4
+    ais8 h cis4. ais8
+    h2 ais4
+    h2 r4 %25
+    R2.*2
+    e4. e8 e e
+    dis4 dis dis8 dis
+    e4. e8 e4 %30
+    e4. dis8 dis4
+    R2.
+    a4 c a
+    d8. d16 d4 r
+    R2.*4 %38
+    h4. h8 c c
+    c4 h h8 h %40
+    c c a a h8.([ a16)]
+    g4 h h
+    g4. a8 h4
+    c4. c8 h4
+    c h2 %45
+    h4 r \mvTr e\pE^\soloE
+    d!4. e8 c4
+    h8. a16 g4 d'
+    c2 h4
+    a a g %50
+    fis4.( e8) d4
+    r \mvTr d'2\fE^\tuttiE
+    h4 h8([ c)] d4
+    e e d(
+    e) d2 %55
+    d2.\fermata \bar "||" %56 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa --
+  cto -- rem %5
+  coe -- li et __
+  ter --
+  rae,
+  vi -- si --
+  bi -- li -- um %10
+  o -- mni -- um
+  et in -- vi --
+  si -- bi -- li --
+  um,
+  et in %15
+  u -- num, in
+  u -- num
+  Do -- mi -- num
+  Je -- sum Chri --
+  stum, %20
+
+  Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni --
+  tum. %25
+
+  Et ex Pa -- tre %28
+  na -- tum an -- te
+  o -- mni -- a %30
+  sae -- cu -- la,
+
+  lu -- men de
+  lu -- mi -- ne,
+
+  ge -- ni -- tum non %39
+  fa -- ctum, con -- sub -- %40
+  stan -- ti -- a -- lem Pa -- tri,
+  per quem
+  o -- mni -- a,
+  o -- mni -- a
+  fa -- cta %45
+  sunt. Qui
+  pro -- pter nos
+  ho -- mi -- nes et
+  pro -- pter
+  no -- stram sa -- %50
+  lu -- tem
+  de --
+  scen -- dit, de --
+  scen -- dit de __
+  coe -- %55
+  lis. %56 finis
+}

@@ -928,3 +928,229 @@ QuoniamBassFigures = \figuremode {
   \bc <[6]>4 <6 5> \bo <[4]>8 \bc <[3]> %300
   r2. %301
 }
+
+CumSanctoOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    r4 \mvTr g'\fE-\tuttiE e2
+    h c4. c8
+    g'4 r8 g fis4 h
+    e,4. a8 d,4 g~ %305
+    g << {
+      d' h2
+      fis g4. g8
+      d'4 r8 c h4 e
+      a,4. d8 g,4 c
+    } \\ {
+      fis, r8 g a h
+      a d,4 c8 h h'4 a16 g
+      fis8 d a'4. d,8 g4~
+      g8 a16 g f2 e4
+    } >>
+    g4. a16 h c8 e, d c %310
+    g'8. f16 e8 d c c' h a
+    g e c a d4. g8
+    c,8. d16 e8 fis g g,16 a h8 c
+    d2 \clef "treble_8" g8 h a g
+    d'8. c16 h8 a g fis e4 %315
+    d8. e16 fis4 g4. c8
+    f,8. g16 a8 h c c,16 d e8 fis?
+    g4^\critnote \clef bass g e2
+    h c
+    g'4. g8 fis4 h %320
+    e,4. a8 d,4 g~
+    g fis g8 e a a,
+    d4 a'4. d,8 g c,
+    d8. c16 h4 c8. d16 e8 fis
+    g4 g, \clef "treble_8" h'2 %325
+    fis g
+    d'8^\critnote \noBeam \clef bass d, h4 e c
+    h h' g2
+    dis e4. e8
+    h'4 g fis h %330
+    e,4. e8 fis h, fis' fis,
+    h2 fis'~
+    fis1
+    h,4 g a!2
+    h8 cis d4 d2~ %335
+    d1~
+    d2 \clef "treble_8" g
+    d'4 \clef bass g, e2
+    h c
+    g' fis4 h %340
+    e,4. a8 d,4 g~
+    g fis e a
+    d,1~
+    d~
+    d %345
+    g,\fermata \bar "|." %346 finis
+  }
+}
+
+CumSanctoBassFigures = \figuremode {
+  r1 %302
+  r
+  r
+  r %305
+  r
+  r
+  r
+  r
+  <5 4>4 <\t 3>2. %310
+  r4. <[6!]>8 r2
+  r4. <7>8 <9 [5]>4 <8 6>
+  <9> <[6]> <5 4> <[6]>
+  <5 4> <\t 3>2.
+  r4. <[6]> <5>8 <6\\> %315
+  r4 <6>8 <5!> <10 9>4 <8 6>
+  <9> <[6!]> <5 4!> <[6]>
+  <5 4> <\t 3> <6>2
+  \bo <[6]> <9>4 \bc <[8]>
+  <5> <6> <7> <[7]> %320
+  <9 7> <8 6> <7>2
+  <4+>4 <[6]> <6 5> <[_+]>
+  r <[3!]> <2>8 <\t> <6>4
+  r2 <9>4 <[6]>
+  <5 4> <\t 3> <6>2 %325
+  <[6]>1
+  r4 <5>2 <5>8 <6>
+  <5 4>4 <\t _+> <6>2
+  <[6]>1
+  <[_+]>4 <6> <7> <7 _!> %330
+  <9 7> <8 6+>8 <[5]> <7 [5+] _+>4 \bo <[5+] 4>8 \bc <[\t] _+>
+  r2 <[5+] _+>
+  <6 4> <[5+] _+>
+  <10 9+>4 <[5]> <9 _+> \bassFigureExtendersOn <8 _+>8 <6 _+> \bassFigureExtendersOff
+  \bo <[7]>8 \bc <[5]> r4 <6 4>2 %335
+  <[5] 3> <6 4>
+  <[5] 3>1
+  r2 <6>
+  <[6]> <9>4 <8>
+  <5> <6> <7> q %340
+  q <6>8 <7> q4 <5>8 <6>
+  <2>4 <[6]> <7>8 <6> <7>4
+  <7>2 <6 4>
+  <5 3> <6 4>
+  <[5] 3>4 <6 4> <5 \t> <\t 3> %345
+  r1 %346 finis
+}
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoCredo
+    \mvTr g'8\fE-\tuttiE a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    a h c d e e,
+    fis' e d e fis d %5
+    g fis g a g g,
+    c a d c d d,
+    g2 r4
+    d'8 e fis g a a,
+    h cis d e fis fis, %10
+    g a h cis d d,
+    h' cis d e fis fis,
+    g g' a g a a,
+    d e fis g a a,
+    h cis d e fis fis, %15
+    h cis d e fis fis,
+    h cis d h fis' fis,
+    h cis d e fis fis,
+    h' a! g fis g g,
+    fis2 r4 %20
+    R2.
+    g'8 fis e fis g e
+    fis fis, fis' gis ais fis
+    h h, fis' e fis fis,
+    h cis d e fis fis, %25
+    g' a h c d d,
+    e fis g a h h,
+    e dis e fis g e
+    h' a h c h a
+    g a g fis e e, %30
+    h' ais h cis dis h
+    e fis gis fis gis e
+    a h c h c a
+    d, e fis e fis d
+    g4 g, r %35
+    R2.*3
+    g'4 g, g'
+    g g, g' %40
+    a fis g8. fis16
+    e8 fis g a h h,
+    c d e fis g g,
+    a h c d e e,
+    a' fis h a h h, %45
+    e4. \mvTr fis8\pE-\solo g e
+    fis e fis g a fis
+    g a h c d d,
+    e d e fis g g,
+    c h a h c a %50
+    d c d e fis d
+    \mvTr g\fE-\tutti a h c d d,
+    e fis g a h h,
+    c d e fis g g,
+    c a d4 d, %55
+    g2.\fermata \bar "||" %56 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r2 <6>4
+  <[6 5]>2. %5
+  <9 4>4 <8 3>2
+  <6 5>2.
+  r
+  r2 <[_+]>4
+  r2 <6>4 %10
+  r2.
+  <5>2 <6>4
+  r <4>4. <_+>8
+  r2 \bo <[6 4]>8 \bc <[5 _+]>
+  <5>2 <[5+] _+>4 %15
+  r2 \bo <[5+ _+]>4
+  r2 <5+ _+>4
+  r2 <5+ _+>4
+  r8 \bc <[6 _+]> <7>4 <6>
+  <[5+ _+]>2. %20
+  r
+  <6>
+  <[7 5+] _+>
+  r4 \bo <[5+ 4]> \bc <[\t _+]>
+  r2 <6 _!>4 %25
+  <10 9> <[\t 8]>2
+  <10 9>4 <[\t 8]> <_+>
+  r2.
+  \bo <[_+ \l]>
+  <6> %30
+  <6 4>4 \bc <[5 _+]>2
+  <_+>2.
+  r
+  r
+  r %35
+  r2.*3
+  r2 <6 4>4
+  <\t \t> <[5] 3> <6> %40
+  r <[6]>2
+  r2.
+  r2 <6>4
+  r2.
+  \bo <[6 5]>4 <_+>2 %45
+  r2 <6>4
+  \bc <[6! \l]>2.
+  r
+  <6>
+  q2 <[5]>4 %50
+  r2.
+  r
+  r2 <6>4
+  r2.
+  <6 5> %55
+  r %56 finis
+}

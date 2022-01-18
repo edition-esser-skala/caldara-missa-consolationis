@@ -560,5 +560,216 @@ QuoniamSopranoLyrics = \lyricmode {
   ste. %289 finis
 }
 
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    R1*12 %313
+    r4 \mvTr d'\fE^\tuttiE h2
+    fis g4. g8 %315
+    d'4 r8 c h h16 h e8 e
+    a,4.( d8) g,4 c~
+    c h r8 c[ d e]
+    d g,4 f8 e e'4 d16[ c]
+    h8 g e'4. a,8 d4~ %320
+    d8[ e16 d] c2 h4
+    a2( h4 a)
+    a r r2
+    r4 d4. g,8 c4~
+    c8[ d16 c] h4 d2^\critnote %325
+    d2. d4
+    d r8 d h h16 h e8 e
+    e4 dis r8 e[ fis g]
+    fis h,4 a8 g g'4 fis16[ e]
+    dis8 h e4. a,8 d4~ %330
+    d8[ e16 d] cis8[ h] ais h4 ais8
+    h4 r r2
+    R1*2
+    r4 d h2 %335
+    fis g4. g8
+    d'4 d d4. d8
+    d2 r8 c[ d e]
+    d g,4 f8 e e'4 d16[ c]
+    h8 g e'4. a,8 d4~ %340
+    d8[ e16 d] c2 h8 h
+    a a16 a d8 d g,4. c8
+    fis,8.[ g16] a4 r8 g[ a h]
+    a d4 c8 h d4 c16[ h]
+    a4 h a2 %345
+    h1\fermata \bar "|." %346 finis
+  }
+}
 
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- %314
+  cto Spi -- ri -- %315
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a --
+  _ _ _ _ _ _
+  _ men, a -- _ _ %320
+  _ men,
+  a --
+  men,
+  a -- _ _
+  men, in %325
+  glo -- ri --
+  a, in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  _ _ _ _ _ _
+  _ men, a -- _ _ %330
+  _ _ _ _
+  men,
+
+  cum San -- %335
+  cto Spi -- ri --
+  tu in glo -- ri --
+  a, a --
+  _ _ _ _ _ _
+  _ men, a -- _ _ %340
+  _ men, in
+  glo -- ri -- a De -- i Pa -- _
+  _ tris, a --
+  _ _ _ _ _ _
+  _ men, a -- %345
+  men. %346 finis
+}
+
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoCredo
+    \mvTr h'2\fE^\tuttiE a4
+    g g fis
+    e2 d4
+    r r c'
+    c c2 %5
+    c4 h8([ a)] h4(
+    a) a2
+    h r4
+    r fis' e
+    d4. d8 d4 %10
+    h4. h8 a4
+    h4. h8 a4
+    h a4. a8
+    a2 r4
+    r h ais %15
+    h h ais
+    h2 cis4
+    h4. h8 ais4
+    h8 cis? h2
+    ais r4 %20
+    h8([ cis)] d([ e)] fis([ d)]
+    e8.([ dis16)] e2
+    e4. d8 cis e
+    d4 cis2
+    h r4 %25
+    R2.*2
+    h4. h8 h h
+    h4 h h8 h
+    h4. h8 h4 %30
+    h4. h8 h4
+    h e e
+    c c r
+    r d d
+    d2. %35
+    c2 h4
+    a2 g4~
+    g fis2
+    g r4
+    r d'8 d e e %40
+    c c d8.([ c16)] h4
+    r e d
+    c4. c8 h4
+    a4. a8 g4
+    fis fis2 %45
+    e4 r r
+    R2.*5 %51
+    r4 g'( fis)
+    e e d
+    c c h
+    a2. %55
+    h\fermata \bar "||" %56 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa --
+  cto -- rem %5
+  coe -- li __ et __
+  ter --
+  rae,
+  vi -- si --
+  bi -- li -- um %10
+  o -- mni -- um
+  et in -- vi --
+  si -- bi -- li --
+  um,
+  et in %15
+  u -- num, in
+  u -- num
+  Do -- mi -- num
+  Je -- sum Chri --
+  stum, %20
+  Fi -- li -- um
+  De -- i,
+  De -- i u -- ni --
+  ge -- ni --
+  tum. %25
+
+  Et ex Pa -- tre %28
+  na -- tum an -- te
+  o -- mni -- a %30
+  sae -- cu -- la,
+  De -- um de
+  De -- o,
+  De -- um
+  ve -- %35
+  rum de
+  De -- o __
+  ve --
+  ro,
+  con -- sub -- stan -- ti -- %40
+  a -- lem Pa -- tri,
+  per quem
+  o -- mni -- a,
+  o -- mni -- a
+  fa -- cta %45
+  sunt.
+
+  De -- %52
+  scen -- dit, de --
+  scen -- dit de
+  coe -- %55
+  lis. %56 finis
+}
+
+% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
+% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+%
+% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
+% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
+%
+% Et re -- sur -- re -- xit ter -- ti -- a di -- e
+% se -- cun -- dum Scri -- ptu -- ras,
+% et a -- scen -- dit in coe -- lum,
+% se -- det ad dex -- te -- ram Pa -- tris.
+% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
+% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
+% cu -- ius re -- gni non e -- rit fi -- nis.
+% Et in Spi -- ri -- tum San -- ctum,
+% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
+% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
+% Qui cum Pa -- tre et Fi -- li -- o
+% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
+% qui lo -- cu -- tus est per Pro -- phe -- tas.
+% Et u -- nam san -- ctam ca -- tho -- li -- cam
+% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
+% Con -- fi -- te -- or u -- num ba -- ptis -- ma
+% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
+% et vi -- tam ven -- tu -- ri sae -- cu -- li.

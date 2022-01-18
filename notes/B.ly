@@ -456,3 +456,203 @@ QuiSedesBassoLyrics = \lyricmode {
   _ _ re
   no -- bis. %218 finis
 }
+
+CumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #302
+    r4 \mvTr g'\fE^\tuttiE e2
+    h c4. c8
+    g'4 r8 g fis fis16 fis h8 h
+    e,4.( a8) d,4 g~ %305
+    g fis r8 g[ a h]
+    a d,4 c8 h h'4 a16[ g]
+    fis8 d a'4. d,8 g4~
+    g8[ a16 g] f2 e4
+    g4. a16[ h] c8[ e, d c] %310
+    g'8.[ f16] e8[ d] c[ c' h a]
+    g[ e c a] d4. g8
+    c,8.[ d16] e8[ fis] g[ g,16 a] h8 c
+    d4 d r2
+    R1*3 %317
+    r4 g e2
+    h c4. c8
+    g'4 r8 g8 fis fis16 fis h8 h %320
+    e,4.( a8) d,4 g~
+    g fis g8 e a4
+    d, a'4. d,8 g[ c,]
+    d8.[ c16] h4 c8.[ d16] e8[ fis]
+    g4 g, r2 %325
+    R1
+    r8 d' h h16 h e8 e c4
+    h h' g2
+    dis e4. e8
+    h'4 r8 g fis fis16 fis h8 h %330
+    e,4. e8 fis h fis4
+    h, r fis'2
+    fis4. fis8 fis2
+    R1
+    r4 d d2~ %335
+    d4 d d2~
+    d r
+    r4 g e2
+    h c4. c8
+    g'4 r8 g fis fis16 fis h8 h %340
+    e,4.( a8) d,4 g~
+    g fis8 fis e e16 e a8 a
+    d,4 d d2~
+    d1~
+    d %345
+    g,\fermata \bar "|." %346 finis
+  }
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+  Cum San -- %302
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a -- %305
+  men, a --
+  _ _ _ _ _ _
+  _ men, a -- _ _
+  _ men,
+  a -- _ _ %310
+  _ _ _
+  _ _ _
+  _ _ _ _ men,
+  a -- men,
+
+  cum San -- %318
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i %320
+  Pa -- tris, a --
+  men, a -- men, a --
+  men, a -- _ _
+  _ _ _ _
+  _ men, %325
+
+  in glo -- ri -- a De -- i Pa --
+  tris, cum San --
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i %330
+  Pa -- tris, a -- men, a --
+  men, in
+  glo -- ri -- a,
+
+  in glo -- %335
+  ri -- a __
+
+  cum San --
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i %340
+  Pa -- tris, a --
+  men, in glo -- ri -- a De -- i
+  Pa -- tris, a --
+
+  men. %346 finis
+}
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoCredo
+    \mvTr g'2\fE^\tuttiE d4
+    e e h
+    c2 g4
+    r r e'
+    fis8([ e d e)] fis([ d)] %5
+    g4 g, g'(
+    c,) d2
+    g, r4
+    r d'' a
+    h4. h8 fis4 %10
+    g4. g8 d4
+    h8 cis d([ e] fis4)
+    g4 a4. a8
+    d,2 r4
+    r h fis' %15
+    h h, fis'
+    h2 ais4
+    h4. h8 fis4
+    h8 a! g2
+    fis r4 %20
+    R2.
+    g8([ fis)] e([ fis)] g([ e)]
+    fis4. gis8 ais fis
+    h8[( h,] fis'4.) fis8
+    h,2 r4 %25
+    R2.*2
+    e4. fis8 g e
+    h'4 h, h'8 a
+    g4. fis8 e4 %30
+    h'4. h,8 h4
+    e gis e
+    a a r
+    R2.*5 %38
+    g4. g8 g g
+    g4 g, g'8 g %40
+    a a fis fis g8.([ fis16)]
+    e4 e h
+    c8([ d)] e([ fis)] g4
+    a,8([ h)] c([ d)] e4
+    a( h) h,
+    e r r
+    R2.*5
+    g8([ a h c d d,)]
+    e[ fis g a h h,]
+    c[ d e fis] g4
+    c, d2
+    g,2.\fermata \bar "||"
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa --
+  cto -- rem %5
+  coe -- li et __
+  ter --
+  rae,
+  vi -- si --
+  bi -- li -- um %10
+  o -- mni -- um
+  et in -- vi --
+  si -- bi -- li --
+  um,
+  et in %15
+  u -- num, in
+  u -- num
+  Do -- mi -- num
+  Je -- sum Chri --
+  stum, %20
+
+  Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni --
+  tum. %25
+
+  Et ex Pa -- tre %28
+  na -- tum an -- te
+  o -- mni -- a %30
+  sae -- cu -- la,
+  De -- um de
+  De -- o,
+
+  ge -- ni -- tum non %39
+  fa -- ctum, con -- sub -- %40
+  stan -- ti -- a -- lem Pa -- tri,
+  per quem
+  o -- mni -- a,
+  o -- mni -- a
+  fa -- cta %45
+  sunt.
+
+  De -- %52
+  scen --
+  _ dit
+  de coe -- %55
+  lis. %56 finis
+}
