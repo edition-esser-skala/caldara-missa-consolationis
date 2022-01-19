@@ -280,3 +280,64 @@ EtIncarnatusTromboneII = {
     d1\fermata \bar "||" %65 finis
   }
 }
+
+EtResurrexitTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #88
+    r8 d\fE d d d d d d
+    d d h h16 h a4 a8 a
+    h h16 h a4 a r %90
+    R1
+    r8 d, fis a d d, fis a
+    d4 d d e8 e
+    d8. d16 cis8 cis d d16 d cis4
+    h r r8 d e8. e16 %95
+    d8 d e e d d d8. d16
+    d4 r r e8 e
+    d4 d d d8 d
+    e4. e8 dis4 e8 e
+    e4 e8 fis! dis e e dis %100
+    e4 r r2
+    R1*13 %115
+    r4 r8 e\fE e f d8. d16 %115
+    e4 r r r8 h
+    c4 h a r
+    r8 d d d d4 d
+    r c8 c c4 h
+    h r r2 %120
+    R1*2
+    r4 a8 a h4 a8 g \noBreak
+    a1\fermata \bar "||"
+    R1*2 %126
+    r2 d
+    h4 e8 e a,4 d
+    g,8. g16 c4 fis,!8 g4 fis8
+    g g16 a h8 a16 g d'8 d, d'4~ %130
+    d8 cis r c4 h8 r g~
+    g fis e4 d r
+    r8 g16 a h8 a16 g c8 d r a
+    h c16 d e8 d16 c d4 c
+    h r r8 h16 c d8 c16 h %135
+    r8 a16 h c!8 h16 a h8 h16 c d8 e~
+    e d h a a4 r8 c!
+    d e r a, h c r g
+    a h r4 r2
+    R1 %140
+    r4 g fis h8 h
+    e,4 a dis,8. dis16 h'4
+    c h h r
+    r8 a16 h c8 h16 a d8 d, r4
+    r g fis h8 h %145
+    e,4 a d,8. d16 g4
+    r8 c4 h8 r d4 c8
+    a d,16 e fis8 e16 d e8 c'16 d e8 d16 c
+    g'8 g, r h c d r a
+    h c r h c d r c %150
+    d2 d4 r
+    r8 d4 c8 r e4 d8
+    d1
+    d\fermata \bar "|." %154 finis
+  }
+}

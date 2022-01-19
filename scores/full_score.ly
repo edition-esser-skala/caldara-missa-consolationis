@@ -807,48 +807,117 @@ paperFiveStaves = \paper {
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Crucifixus"
+  %   \addTocEntry
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \CrucifixusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \CrucifixusSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \CrucifixusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \CrucifixusAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \CrucifixusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \CrucifixusTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \CrucifixusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \CrucifixusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \CrucifixusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \CrucifixusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Crucifixus"
-    \addTocEntry
-    \paperFiveStaves
+    \subsection "Et resurrexit – Et vitam"
+    % \addTocEntry
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EtResurrexitTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EtResurrexitTromboneII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EtResurrexitViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EtResurrexitViolinoII
+            }
+          >>
+        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CrucifixusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
           }
-          \new Lyrics \lyricsto Soprano \CrucifixusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CrucifixusAlto }
+            \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
           }
-          \new Lyrics \lyricsto Alto \CrucifixusAltoLyrics
+          \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CrucifixusTenore }
+            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
           }
-          \new Lyrics \lyricsto Tenore \CrucifixusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CrucifixusBasso }
+            \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
           }
-          \new Lyrics \lyricsto Basso \CrucifixusBassoLyrics
+          \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \CrucifixusOrgano
+            \transpose c c,
+            \EtResurrexitOrgano
           }
         >>
-        \new FiguredBass { \CrucifixusBassFigures }
+        \new FiguredBass { \EtResurrexitBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 2 = 90 }
+      % \layout { }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

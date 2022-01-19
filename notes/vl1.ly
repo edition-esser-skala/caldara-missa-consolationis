@@ -493,3 +493,65 @@ EtIncarnatusViolinoI = {
     g1\fermata \bar "||" %65 finis
   }
 }
+
+EtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #88
+    r2 r8 fis'\fE a g16 fis
+    g8 h16 a g fis e d cis cis h a d4~
+    d8 e cis4 d16 a' a a h( a) fis fis %90
+    g( fis) d d e( d) a a h( a) d, d e8-! cis-!
+    d fis'16 e d8 cis d fis16 e d8 cis
+    d16 e fis g a a h cis d8 d, e16 cis d e
+    d h cis d cis ais h cis h fis h d, cis8 ais'
+    h h a16 g fis e fis8 d' a'16 g fis e %95
+    fis8 d, a'16 g fis e fis8 a d16 c! h a
+    h8 h e16 d c h c8 e a16 g fis e
+    d8 a d16 c h a h8 d g16 fis e d
+    e8 e, a16 g fis e dis8 h' e16 d? c h
+    c8 e, c'16 h a g fis dis' e, e' fis,8 dis' %100
+    e, h' e16 d c h c8 e, a16 g fis e
+    fis8 a, d16 c h a h a g8 r4
+    R1*2
+    r2 r8 d'\pE d'16 c h a %105
+    h( a) g8 r4 r2
+    R1*7 %113
+    r2 r8 c\f d e
+    f4 e8 g16( e) c e a, c d,8 h' %115
+    c, g' a h c4 h8 gis'16( e)
+    a a, h a h8 gis' a,4 r
+    r8 a  d16 c h a h a g8 r4
+    r8 c e16 d c h c h a g fis4
+    e8 e' d!16 c h a h( a) g8 h h %120
+    c c a a h h d16 c h a
+    h8 h h h c c a a
+    h4 d2 cis4 \noBreak
+    d1\fermata \bar "||"
+    R1*7 %131
+    r2 d
+    h4 e8 e a,4 d
+    g,8. g16 c4 fis,!8 g4 fis8
+    g g16 a h8 a16 g d'8 d, d'4~ %135
+    d8 cis r c4 h8 r g~
+    g fis e4 d8 d'4 c!8
+    r h4 a8 r c4 h8
+    r4 h g c8 c
+    fis,4 h e,8. e16 a8 a~ %140
+    a g r c4 h8 r h~
+    h ais r a4 h16 a g8 a16 g
+    fis2 e8 e'4 d!8
+    r4 r8 e4 d8 r c~
+    c h r4 r8 a4 g8 %145
+    r g4 fis8 r2
+    r r4 g
+    fis h8 h e,4 a
+    d,8. d16 g4 fis8 fis16 g a8 g16 fis
+    g8 g16 a h8 a16 g a8 a16 h c8 h16 a %150
+    h8 h16 c d8 c16 h a8 d4 c8
+    r h4 a8 r g4 fis8
+    h4. a16 g a2
+    h1\fermata \bar "|." %154 finis
+  }
+}

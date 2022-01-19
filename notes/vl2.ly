@@ -454,3 +454,71 @@ EtIncarnatusViolinoII = {
     g1\fermata \bar "||" %65 finis
   }
 }
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #88
+    r8 h'\fE d c16 h a4 r
+    r8 g'16 fis e d c h a4 r16 a g fis
+    h a g fis e8 a fis16 fis' fis fis g( fis) d d %90
+    e( d) fis, fis g( fis) fis' fis g( fis) fis, fis g8-! e-!
+    d8 a'16 g fis8 e fis a16 g fis8 e
+    fis16 e' fis g a a h cis d8 d, e16 cis d e
+    d h cis d cis ais h cis h fis h d, cis8 ais'
+    h h a16 g fis e fis8 d' a'16 g fis e %95
+    fis8 d, a'16 g fis e fis8 a d16 c! h a
+    h8 h e16 d c h c8 e a16 g fis e
+    d8 a d16 c h a h8 d g16 fis e d
+    e8 e, a16 g fis e dis8 h' e16 d? c h
+    c8 e, c'16 h a g fis dis' e, e' fis,8 dis' %100
+    e, h' e16 d c h c8 e, a16 g fis e
+    fis8 a, d16 c h a h a g8 r4
+    R1*2
+    r2 r8 d'\pE d'16 c h a %105
+    h( a) g8 r4 r2
+    R1*7 %113
+    r2 r8 e\f f g
+    a4 g8 g'16( e) c e a, c d,8 h' %115
+    c,-\critnote e fis! gis a4 gis8 gis'16( e)
+    a a, h a h8 gis' a, e a16 g fis! e
+    fis e d8 r4 r8 d' g16 fis e d
+    e( d) c8 r e,4 e8 dis4
+    e8 e' d!16 c h a h( a) g8 g g %120
+    g g fis fis g g h16 a g fis
+    g8 g g g g g fis fis
+    g4 a g2 \noBreak
+    fis1\fermata \bar "||"
+    g2 fis4 h8 h \noBreak %125
+    e,4 a d,8. d16 g4
+    cis,8 d4 cis8 d d16 e fis8 e16 d
+    g8 g, g'4. fis8 r f~
+    f e r c4 h8 a4
+    g r r8 a'4 g8 %130
+    r g4 fis8 r fis4 e8~
+    e fis g4 fis r8 a~
+    a g r4 r2
+    R1
+    g2 fis4 h8 h %135
+    e,4 a d,8. d16 g4
+    cis,8 d4 cis8 d fis4 e8
+    r g4 fis8 r2
+    r e
+    d!4 g8 g cis,4 fis %140
+    h,8. h16 e4 r8 fis4 e8
+    r e4 dis8 r fis4 e8
+    r e4 dis8 e4 r8 h'~
+    h a r g4 fis8 r a~
+    a g r e4 d8 r d~ %145
+    d c r a'4 g8 r h~
+    h a r a4 g8 r e~
+    e d r4 r c
+    h e8 e a,4 d
+    d8 e d4 r8 fis16 g a8 g16 fis %150
+    r8 g16 a h8 a16 g fis4 r8 a~
+    a g r c4 h8 r a~
+    a g16 fis g2 fis4
+    g1\fermata \bar "|." %154 finis
+  }
+}
