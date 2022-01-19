@@ -748,8 +748,7 @@ CredoSopranoLyrics = \lyricmode {
   lis. %56 finis
 }
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+
 %
 % Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
 % sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
@@ -773,3 +772,32 @@ CredoSopranoLyrics = \lyricmode {
 % in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
 % Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
 % et vi -- tam ven -- tu -- ri sae -- cu -- li.
+
+EtIncarnatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #57
+    \mvTr h'2\fE^\tuttiE h8 h h h
+    a4 a a a8 a
+    ais2 h^\critnote
+    r4 h8 fis g4 g %60
+    fis4. fis8 fis2
+    r4 h e e,
+    c'1~
+    c4 h a4. a8
+    h1\fermata \bar "||" %65 finis
+  }
+}
+
+EtIncarnatusSopranoLyrics = \lyricmode {
+  Et in -- car -- na -- tus %57
+  est de Spi -- ri -- tu
+  San -- cto
+  ex Ma -- ri -- a %60
+  Vir -- gi -- ne,
+  et ho -- mo,
+  ho --
+  mo fa -- ctus
+  est. %65 finis
+}

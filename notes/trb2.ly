@@ -263,3 +263,20 @@ CredoTromboneII = {
     d2.\fermata \bar "|." %56 finis
   }
 }
+
+EtIncarnatusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #57
+    d2\fE d8 d d d
+    c4 c cis cis8 cis
+    cis2 h
+    r2 r4 e8 d! %60
+    cis cis cis4. h16 ais h4
+    R1
+    r4 e e e
+    d d d4. d8
+    d1\fermata \bar "||" %65 finis
+  }
+}
