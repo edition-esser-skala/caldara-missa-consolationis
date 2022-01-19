@@ -1183,3 +1183,58 @@ EtIncarnatusBassFigures = \figuremode {
   <7>4 <6 4> <5 \t> <\t 3>
   r1 %65 finis
 }
+
+CrucifixusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \tempoCrucifixus
+      \set Score.currentBarNumber = #66
+    \mvTr e1\pE-\solo fis2
+    g e c
+    h' g dis
+    e1.
+    h2 h'4 a g fis %70
+    e2. fis4 g2
+    a4 h c2 c,
+    h1.
+    e
+    a2 a, a' %75
+    fis2. e4 d fis
+    g2 g, g'~
+    g fis e
+    d e fis
+    h,1 h'2~ %80
+    h a1
+    d,1.
+    e
+    a,~
+    a1 ais2 %85
+    h1.
+    e,\fermata \bar "||" %87 finis
+  }
+}
+
+CrucifixusBassFigures = \figuremode {
+  r1 <6\\>2 %66
+  <6> q <6\\>
+  <_+> <6> <[6]>
+  <5> <6!> <6+ 4+ 3>
+  <_+>1. %70
+  r1 \bo <[8 6]>4 \bc <[7 5!]>
+  r2 <6\\>1
+  <_+>1.
+  q
+  <9>2 <8>1 %75
+  <6 5>1.
+  <9>2 <8> \bo <[8 6]>4 \bc <[7 5]>
+  <6 4+ 2+>2 <[5+ _+]> <6+ 4+ 3>
+  <[6]> <6+ 5> <[5+] _+>
+  r1. %80
+  \bo <[4 2!]>2 \bc <[\t \t]>1
+  r1.
+  r
+  <7>2 <6!> <5>
+  <[6+] 4+>1 <7 [_+]>2 %85
+  <4> \bo <[_+]>4 <2> \bc <[_+]>2
+  <_!>1. %87 finis
+}

@@ -749,10 +749,6 @@ CredoSopranoLyrics = \lyricmode {
 }
 
 
-%
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
-%
 % Et re -- sur -- re -- xit ter -- ti -- a di -- e
 % se -- cun -- dum Scri -- ptu -- ras,
 % et a -- scen -- dit in coe -- lum,
@@ -800,4 +796,58 @@ EtIncarnatusSopranoLyrics = \lyricmode {
   ho --
   mo fa -- ctus
   est. %65 finis
+}
+
+CrucifixusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #66
+    R1.
+    \mvTr e'2(\pE^\solo c) ais
+    h1.
+    h2 e cis
+    dis2.( cis4) h2 %70
+    r r e4 d
+    c h ais1
+    h r2
+    R1.
+    c~ %75
+    c
+    h
+    ais1 ais2
+    h1 ais2
+    h1 h2 %80
+    c!2. h4 a c
+    d2 d, r
+    r r e'(
+    c2.) h4 a c
+    h1 cis2 %85
+    h1 h2
+    h1.\fermata \bar "||" %87 finis
+  }
+}
+
+CrucifixusSopranoLyrics = \lyricmode {
+  Cru -- ci -- %67
+  fi --
+  xus, cru -- ci --
+  fi -- xus %70
+  e -- ti --
+  am pro no --
+  bis,
+
+  pas -- %75
+
+  sus
+  et se --
+  pul -- tus
+  est, sub %80
+  Pon -- ti -- o Pi --
+  la -- to
+  pas --
+  sus et se --
+  pul -- _ %85
+  _ tus
+  est. %87 finis
 }

@@ -24,6 +24,7 @@ tempoCumSancto = \tempoMarkup "[Tempo deest]"
 
 tempoCredo = \tempoMarkup "Allegro"
 tempoEtIncarnatus = \tempoMarkup "Adagio"
+tempoCrucifixus = \tempoMarkup "Larghetto"
 
 
 \include "notes/fag.ly"

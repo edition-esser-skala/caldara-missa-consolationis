@@ -687,3 +687,58 @@ EtIncarnatusAltoLyrics = \lyricmode {
   ho -- mo fa -- ctus
   est. %65 finis
 }
+
+CrucifixusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #66
+    \mvTr h'2(\pE^\solo g) dis
+    e1.
+    dis2 e fis
+    g1.
+    fis %70
+    h4 a g fis e2~
+    e1.
+    fis1 r2
+    r r h~
+    h a r %75
+    r r a~
+    a g g4 fis
+    e2 fis g
+    fis( g) fis
+    fis1 r2 %80
+    r r a
+    fis2. e4 d fis
+    g2 g, g'~
+    g f e
+    dis1 e2~ %85
+    e dis4( cis) dis2
+    e1.\fermata \bar "||" %87 finis
+  }
+}
+
+CrucifixusAltoLyrics = \lyricmode {
+  Cru -- ci -- %66
+  fi --
+  _ _ _
+  _
+  xus %70
+  e -- ti -- am pro no --
+
+  bis,
+  pas --
+  sus, %75
+  pas --
+  sus et se --
+  pul -- tus, se --
+  pul -- tus
+  est, %80
+  sub
+  Pon -- ti -- o Pi --
+  la -- to pas --
+  _ sus
+  et se -- %85
+  pul -- tus
+  est. %87 finis
+}

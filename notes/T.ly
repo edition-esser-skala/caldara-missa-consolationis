@@ -665,3 +665,53 @@ EtIncarnatusTenoreLyrics = \lyricmode {
   ho -- mo fa -- ctus
   est. %65 finis
 }
+
+CrucifixusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 3/2 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #66
+    R1.*3 %68
+    \mvTr e2(\pE^\solo c) ais
+    h1. %70
+    g2 e'4 d c h
+    c( d e1)
+    dis r2
+    r r e
+    c2. h4 a c %75
+    d2 d, r
+    d'1( e4 d)
+    cis2 cis cis
+    d cis1
+    h r2 %80
+    e1.
+    d1 d2
+    h2. a4 g h
+    c2 c c
+    fis,! fis g %85
+    fis1 fis2
+    e1.\fermata \bar "||" %87 finis
+  }
+}
+
+CrucifixusTenoreLyrics = \lyricmode {
+  Cru -- ci -- %69
+  fi -- %70
+  xus e -- ti -- am pro
+  no --
+  bis,
+  sub
+  Pon -- ti -- o Pi -- %75
+  la -- to
+  pas --
+  sus et se --
+  pul -- tus
+  est, %80
+  pas --
+  sus, sub
+  Pon -- ti -- o Pi --
+  la -- to pas --
+  sus et se -- %85
+  pul -- tus
+  est. %87 finis
+}
