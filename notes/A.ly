@@ -981,3 +981,98 @@ BenedictusAltoLyrics = \lyricmode {
   _ _ mi --
   ni. %54 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    r2 r4 \mvTr fis8\fE^\tuttiE fis
+    g4 g r g
+    g g r8 e e e
+    d8.([ e16)] fis4 r2
+    r4 fis8 fis fis4 fis %5
+    fis2 fis
+    r4 \mvTr h8\pE^\soloE h h4 a!8 a
+    a4 g8 g g4 fis8 fis
+    fis4 e e dis
+    h'8 a g fis e2~ %10
+    e4 dis e2
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoDona \mvTr g2(\fE^\tuttiE fis4) h \noBreak %15
+    e, a d, g
+    cis,8( d4 cis8) d d16[( e] fis8[ e16 d]
+    g8) g, g'4. fis8 r f~
+    f e r c4 h8 a4
+    g r r8 a'4 g8 %20
+    r g4 fis8 r fis4 e8~
+    e[ fis] g4 fis r8 a~
+    a g r4 r2
+    R1
+    g2( fis4) h %25
+    e, a d, g
+    cis,8( d4 cis8) d fis4 e8
+    r g4 fis8 r2
+    r e(
+    d!4) g cis, fis %30
+    h, e r8 fis4 e8
+    r e4 dis8 r fis4 e8
+    r e4( dis8) e4 r8 h'~
+    h a r g4 fis8 r a~
+    a g r e4 d8 r d~ %35
+    d c r a'4 g8 r h~
+    h a r a4 g8 r e~
+    e d r4 r c(
+    h) e a, d
+    d8([ e)] d4 r8 fis16[ g] a8[ g16 fis] %40
+    r8 g16[ a] h8[ a16 g] fis4 r8 a~
+    a g r c4 h8 r a~
+    a[ g16 fis] g2 fis4
+    g1\fermata \bar "|." %44 FINIS
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re %5
+  no -- bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re no -- %10
+  _ bis.
+
+  Do -- na %15
+  no -- bis pa -- cem,
+  pa -- cem, pa --
+  cem, do -- na no --
+  bis pa -- cem, pa --
+  cem, do -- na %20
+  no -- bis pa -- cem, __
+  pa -- cem, pa --
+  cem,
+
+  do -- na %25
+  no -- bis pa -- cem,
+  pa -- cem, do -- na
+  no -- bis,
+  do --
+  na no -- bis %30
+  pa -- cem, do -- na
+  no -- bis pa -- cem,
+  pa -- cem, do --
+  na no -- bis pa --
+  cem, no -- bis pa -- %35
+  cem, pa -- cem, do --
+  na no -- bis pa --
+  cem, do --
+  na no -- bis
+  pa -- cem, pa -- _ %40
+  _ _ cem, do --
+  na no -- bis pa --
+  _ _
+  cem. %44 FINIS
+}

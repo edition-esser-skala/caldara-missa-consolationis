@@ -381,3 +381,47 @@ SanctusTromboneII = {
     h\breve*1/2\fermata \bar "||" %42 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoAgnus
+    r2 r4 a8\fE a
+    h4 h r d
+    e e r8 g, g g
+    a4 a r2
+    r4 cis8 cis h4 h~ %5
+    h ais h2
+    R1*7 \noBreak %13
+    R1\fermata \bar "||"
+    \tempoDona R1*2 %16
+    r2 d\fE
+    h4 e a, d
+    g, c fis,!8 g4 fis8
+    g g16 a h8 a16 g d'8 d, d'4~ %20
+    d8 cis r c4 h8 r g~
+    g fis e4 d r
+    r8 g16 a h8 a16 g c8 d r a
+    h c16 d e8 d16 c d4 c
+    h r r8 h16 c d8 c16 h %25
+    r8 a16 h c!8 h16 a h8 h16 c d8 e~
+    e d h a a4 r8 c!
+    d e r a, h c r g
+    a h r4 r2
+    R1 %30
+    r4 g fis h
+    e, a dis, h'
+    c h h r
+    r8 a16 h c8 h16 a d8 d, r4
+    r g fis h %35
+    e, a d, g
+    r8 c4 h8 r d4 c8
+    a d,16 e fis8 e16 d e8 c'16 d e8 d16 c
+    g'8 g, r h c d r a
+    h c r h c d r c %40
+    d2 d4 r
+    r8 d4 c8 r e4 d8
+    d1
+    d\fermata \bar "|." %44 FINIS
+  }
+}

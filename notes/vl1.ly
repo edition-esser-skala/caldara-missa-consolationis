@@ -615,3 +615,44 @@ BenedictusViolinoI = {
     e1\fermata \markOsannaDaCapoE \bar "||" %54 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoAgnus
+    r2 r4 a''8\fE a
+    g4 g r g
+    g g r8 g g e
+    fis8. g16 a4 r2
+    r4 e2 d!4 %5
+    cis2 h
+    R1*5 %11
+    r8 gis\p gis gis gis gis gis gis
+    a a a a a a a a \noBreak
+    a a a a g2\fermata \bar "||"
+    \tempoDona R1*7 %21
+    r2 d'\fE
+    h4 e a, d
+    g, c fis,!8 g4 fis8
+    g g16 a h8 a16 g d'8 d, d'4~ %25
+    d8 cis r c4 h8 r g~
+    g fis e4 d8 d'4 c!8
+    r h4 a8 r c4 h8
+    r4 h g c
+    fis, h e, a8 a~ %30
+    a g r c4 h8 r h~
+    h ais r a4 h16 a g8 a16 g
+    fis2 e8 e'4 d!8
+    r4 r8 e4 d8 r c~
+    c h r4 r8 a4 g8 %35
+    r g4 fis8 r2
+    r r4 g
+    fis h e, a
+    d, g fis8 fis16 g a8 g16 fis
+    g8 g16 a h8 a16 g a8 a16 h c8 h16 a %40
+    h8 h16 c d8 c16 h a8 d4 c8
+    r h4 a8 r g4 fis8
+    h4. a16 g a2
+    h1\fermata \bar "|." %44 FINIS
+  }
+}

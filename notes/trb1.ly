@@ -382,3 +382,48 @@ SanctusTromboneI = {
     d\breve*1/2\fermata \bar "||" %42 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoAgnus
+    r2 r4 fis8\fE fis
+    g4 g r g
+    g g r8 e e e
+    d8. e16 fis4 r2
+    r4 fis8 fis fis4 fis %5
+    fis2 fis
+    R1*7 \noBreak %13
+    R1\fermata \bar "||"
+    \tempoDona g2\fE fis4 h \noBreak %15
+    e, a d, g
+    cis,8 d4 cis8 d d16 e fis8 e16 d
+    g8 g, g'4. fis8 r f~
+    f e r c4 h8 a4
+    g r r8 a'4 g8 %20
+    r g4 fis8 r fis4 e8~
+    e fis g4 fis r8 a~
+    a g r4 r2
+    R1
+    g2 fis4 h %25
+    e, a d, g
+    cis,8 d4 cis8 d fis4 e8
+    r g4 fis8 r2
+    r e
+    d!4 g cis, fis %30
+    h, e r8 fis4 e8
+    r e4 dis8 r fis4 e8
+    r e4 dis8 e4 r8 h'~
+    h a r g4 fis8 r a~
+    a g r e4 d8 r d~ %35
+    d c r a'4 g8 r h~
+    h a r a4 g8 r e~
+    e d r4 r c
+    h e a, d
+    d8 e d4 r8 fis16 g a8 g16 fis %40
+    r8 g16 a h8 a16 g fis4 r8 a~
+    a g r c4 h8 r a~
+    a g16 fis g2 fis4
+    g1\fermata \bar "|." %44 FINIS
+  }
+}
