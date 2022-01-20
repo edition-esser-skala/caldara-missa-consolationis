@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -9,24 +9,15 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper {
-      systems-per-page = #5
-      indent = 2\cm
+      systems-per-page = #2
+      indent = 2.5\cm
     }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Trombone I"
+          \KyrieTromboneI
         }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Christe"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \ChristeViolinoI }
       >>
     }
   }
@@ -35,26 +26,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \KyrieBViolinoI }
+        \new Staff { \KyrieBTromboneI }
       >>
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Laudamus te"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \LaudamusViolinoI }
+        \new Staff { \GloriaTromboneI }
       >>
     }
   }
@@ -64,17 +46,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \DomineDeusViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Fili"
-    \addTocEntry
-    \paper { page-count = #1 }
-    \score {
-      <<
-        \new Staff { \DomineFiliViolinoI }
+        \new Staff { \DomineDeusTromboneI }
       >>
     }
   }
@@ -84,16 +56,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Quoniam"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuiTollisTromboneI }
       >>
     }
   }
@@ -102,7 +65,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CumSanctoViolinoI }
+        \new Staff { \CumSanctoTromboneI }
       >>
     }
   }
@@ -111,7 +74,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoTromboneI }
       >>
     }
   }
@@ -121,7 +84,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusTromboneI }
       >>
     }
   }
@@ -130,7 +93,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitTromboneI }
       >>
     }
   }
@@ -140,17 +103,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Benedictus"
-    \addTocEntry
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \SanctusTromboneI }
       >>
     }
   }
@@ -159,7 +112,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusTromboneI }
       >>
     }
   }

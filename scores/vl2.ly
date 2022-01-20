@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -9,14 +9,14 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper {
-      systems-per-page = #6
+      systems-per-page = #5
       indent = 2\cm
     }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
     }
@@ -26,7 +26,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ChristeOrgano }
+        \new Staff { \ChristeViolinoII }
       >>
     }
   }
@@ -35,17 +35,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \KyrieBOrgano }
+        \new Staff { \KyrieBViolinoII }
       >>
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaViolinoII }
       >>
     }
   }
@@ -54,17 +54,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudamusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Gratias agimus tibi"
-    \addTocEntry
-    \paper { systems-per-page = #6 }
-    \score {
-      <<
-        \new Staff { \GratiasOrgano }
+        \new Staff { \LaudamusViolinoII }
       >>
     }
   }
@@ -74,47 +64,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \DomineDeusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Fili"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DomineFiliOrgano }
+        \new Staff { \DomineDeusViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Qui sedes"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "fag" "solo" }
-          \QuiSedesFagotto
-        }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Qui sedes"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \QuiSedesOrgano }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -123,7 +83,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
@@ -132,7 +92,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
+        \new Staff { \CumSanctoViolinoII }
       >>
     }
   }
@@ -141,7 +101,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoViolinoII }
       >>
     }
   }
@@ -151,17 +111,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \EtIncarnatusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Crucifixus"
-    \addTocEntry
-    \paper { systems-per-page = #4 }
-    \score {
-      <<
-        \new Staff { \CrucifixusOrgano }
+        \new Staff { \EtIncarnatusViolinoII }
       >>
     }
   }
@@ -170,7 +120,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitViolinoII }
       >>
     }
   }
@@ -180,17 +130,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
@@ -199,7 +149,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
