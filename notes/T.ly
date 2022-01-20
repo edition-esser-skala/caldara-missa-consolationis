@@ -848,3 +848,78 @@ EtResurrexitTenoreLyrics = \lyricmode {
   _
   men. %154 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr d2\fE^\tuttiE d4
+    d2 d
+    r4 c2 c4
+    cis2 cis
+    h4 cis8 dis e4 h \noBreak %5
+    c4. c8 fis,2\fermata \bar "||"
+    \time 3/4 \tempoPleni R2.*10 \noBreak %16
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoOsanna \mvTr d'1\fE^\tuttiE \noBreak
+    e
+    c %20
+    d2. c4
+    h2 h
+    c2. h4
+    a2 a
+    h2. a4 %25
+    g1
+    a
+    r2 fis
+    g4( a) h2
+    r c %30
+    d2.( c4)
+    h1
+    R
+    r4 c h a
+    d2 e4( fis) %35
+    h,2 h
+    r e4 e
+    d d\fermata c! c
+    d d h h
+    a1~ %40
+    a
+    h\breve*1/2\fermata \bar "|." %42 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us %5
+  Sa -- ba -- oth.
+
+  O -- %18
+  san --
+  na %20
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- sis,
+  in ex -- %25
+  cel --
+  sis,
+  o --
+  san -- na,
+  o -- %30
+  san --
+  na,
+
+  o -- san -- na
+  in ex -- %35
+  cel -- sis,
+  in ex --
+  cel -- sis, in ex --
+  cel -- sis, in ex --
+  cel -- %40
+
+  sis. %42 finis
+}

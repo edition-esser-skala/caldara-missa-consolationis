@@ -27,6 +27,10 @@ tempoEtIncarnatus = \tempoMarkup "Adagio"
 tempoCrucifixus = \tempoMarkup "Larghetto"
 tempoEtResurrexit = \tempoMarkup "Allegro"
 
+tempoSanctus = \tempoMarkup "Grave"
+  tempoPleni = \tempoMarkup "Allegro"
+  tempoOsanna = \tempoMarkup "Canone da capella"
+
 
 \include "notes/fag.ly"
 \include "notes/trb1.ly"

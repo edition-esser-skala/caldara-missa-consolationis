@@ -861,3 +861,95 @@ EtResurrexitBassoLyrics = \lyricmode {
 
   men. %154 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr g'2\fE^\tuttiE g4
+    f2 e
+    r4 a2 a4
+    g!2 fis
+    h4 h8 h e,4 d! \noBreak %5
+    c4. c8 h2\fermata \bar "||"
+    \time 3/4 \tempoPleni R2.*2
+    \mvTr g'4\pE^\soloE fis h
+    a a g %10
+    fis d g~
+    g fis2
+    g4 g8[ fis e d]
+    e[ d] cis4. d16[ e]
+    fis4 gis ais %15
+    h( fis2) \noBreak
+    h,2.\fermata \bar "||"
+    \time 2/2 \tempoOsanna R1
+    \mvTr g'1\fE^\tutti \noBreak
+    a %20
+    fis
+    g2. f4
+    e2 e
+    f2. e4
+    d2 d %25
+    e2. d4
+    c1
+    d
+    r2 h
+    c4( d) e2 %30
+    r fis
+    g2.( fis4)
+    e1
+    R
+    r4 fis e d %35
+    g2 a4( h)
+    e,2 e
+    r a4 a
+    g g\fermata g, g
+    d'1~ %40
+    d
+    g,\breve*1/2\fermata \bar "|." %42 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us Sa -- %5
+  ba -- oth.
+
+  Ple -- ni sunt %9
+  coe -- li et %10
+  ter -- ra, et __
+  ter --
+  ra glo --
+  _ _ _
+  _ ri -- a %15
+  tu --
+  a.
+
+  O --
+  san -- %20
+  na
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- sis, %25
+  in ex --
+  cel --
+  sis,
+  o --
+  san -- na, %30
+  o --
+  san --
+  na,
+
+  o -- san -- na %35
+  in ex --
+  cel -- sis,
+  in ex --
+  cel -- sis, in ex --
+  cel -- %40
+
+  sis. %42 finis
+}

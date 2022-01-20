@@ -555,3 +555,43 @@ EtResurrexitViolinoI = {
     h1\fermata \bar "|." %154 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoSanctus
+    r4 h'2\fE h4
+    h2 h
+    r4 a2 a4
+    a2 ais
+    h4 h8 h c! h h4~ \noBreak %5
+    h8 a16 g a8. a16 h2\fermata \bar "||"
+    \time 3/4 \tempoPleni R2.*10 \noBreak %16
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoOsanna r2 d\fE
+    h g
+    r e'4 e %20
+    e2 d
+    r d4 d
+    d2 c
+    r c4 c
+    c2 h %25
+    r h
+    c4 d e2~
+    e d4 c
+    h c d2~
+    d c4 h %30
+    a1
+    r4 d c h
+    e2 e
+    r e~
+    e4 d d2 %35
+    d d~
+    d4 d cis2
+    d\fermata a4 a
+    h h g2~
+    g fis4 e %40
+    fis1
+    g\breve*1/2\fermata \bar "|." %42 finis
+  }
+}
