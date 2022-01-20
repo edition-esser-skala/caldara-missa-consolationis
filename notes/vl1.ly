@@ -592,6 +592,26 @@ SanctusViolinoI = {
     h h g2~
     g fis4 e %40
     fis1
-    g\breve*1/2\fermata \bar "|." %42 finis
+    g\breve*1/2\fermata \bar "||" %42 finis
+  }
+}
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoBenedictus
+      \set Score.currentBarNumber = #43
+    g''8\fE h16. a32 g8 g g\trill fis r4
+    e16. h32 g16. h32 e16. h32 g16. h32 g'4 r
+    a16. e32 c16. e32 a16. e32 c16. e32 fis4 r %45
+    r8 g fis16-! fis-! e-! e-! dis-! dis-! c!-! c-! h-! h-! a-! a-!
+    g8 fis16 e fis4 e r
+    a8\p c16. h32 a8 a a\trill g r4
+    a'16. e32 c16. e32 a16. e32 c16. e32 fis4 r
+    r8 h a16-! a-! g-! g-! fis-! fis-! e-! e-! d-! d-! c-! c-! %50
+    h8 a16 g a4 g8 g' fis16-! fis-! e-! e-!
+    dis-! dis-! c!-! c-! h-! h-! a-! a-! g4 r8 g
+    a fis! g g fis fis fis4
+    e1\fermata \markOsannaDaCapoE \bar "||" %54 finis
   }
 }

@@ -379,6 +379,6 @@ SanctusTromboneI = {
     g\fermata d4 d
     d1~ %40
     d
-    d\breve*1/2\fermata \bar "|." %42 finis
+    d\breve*1/2\fermata \bar "||" %42 finis
   }
 }

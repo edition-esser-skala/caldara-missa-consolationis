@@ -916,7 +916,7 @@ SanctusAlto = {
     g\fermata d4 d
     d1~ %40
     d
-    d\breve*1/2\fermata \bar "|." %42 finis
+    d\breve*1/2\fermata \bar "||" %42 finis
   }
 }
 
@@ -952,4 +952,32 @@ SanctusAltoLyrics = \lyricmode {
   cel -- %40
 
   sis. %42 finis
+}
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #43
+    R1*4 %46
+    r2 \mvTr e8([\pE^\solo g16. fis32] e8) e
+    e dis r dis e h r h'
+    a c16 h a8 a16 g fis16.[ g32] a4 d,8~
+    d16[ g fis16. g32] e8.([\trill d32 e)] fis8[ g] a[ g16 fis] %50
+    g4. fis8 g4 r
+    r8 dis e fis16 fis g8[ h16 a] g[ fis e8]
+    f[ dis] e2 dis4
+    e1\fermata \markOsannaDaCapoE \bar "||" %54 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %47
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne, no -- mi -- ne Do -- _ _
+  _ _ _ %50
+  _ mi -- ni,
+  in no -- mi -- ne Do -- _
+  _ _ mi --
+  ni. %54 finis
 }

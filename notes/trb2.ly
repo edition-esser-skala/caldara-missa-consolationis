@@ -378,6 +378,6 @@ SanctusTromboneII = {
     d d h h
     a1~ %40
     a
-    h\breve*1/2\fermata \bar "|." %42 finis
+    h\breve*1/2\fermata \bar "||" %42 finis
   }
 }

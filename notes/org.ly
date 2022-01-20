@@ -1439,7 +1439,7 @@ SanctusOrgano = {
     g g,
     d'1~ %40
     d
-    g,\breve*1/2\fermata \bar "|." %42 finis
+    g,\breve*1/2\fermata \bar "||" %42 finis
   }
 }
 
@@ -1486,4 +1486,39 @@ SanctusBassFigures = \figuremode {
   <4> %40
   <3>
   r %42 finis
+}
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \tempoBenedictus
+      \set Score.currentBarNumber = #43
+    \mvTr e8\fE-\soloE e, r e' h' dis16. cis32 h8 h
+    e e, r4 e8 g16. fis32 e8 e
+    a a, r4 d8 fis16. e32 d8 d %45
+    g g a ais h2
+    c8 g a h e,4 r8 e\pE
+    fis4 r8 h^\critnote e, g16. fis32 e8 e
+    a a, r4 d8 fis16. e32 d8 d
+    g g, c cis d e fis d %50
+    g g, d' d, g g a ais
+    h2 e4 r8 e
+    a, h c ais h a h4
+    e,1\fermata \markOsannaDaCapoE \bar "||" %54 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2 <6 4>8 \bo <[6]> \bc <[_+]>4 %43
+  r1
+  r %45
+  r4 <6>8 <7 [_+]> \bo <[8 5] _+> \bassFigureExtendersOn <9! 7 _+> <8 6 _+> <7 5 _+> \bassFigureExtendersOff
+  r <6> <6 5> \bc <[_+ \l]> r2
+  <7>8 <6\\>4 <7 [_+]>8 \bo <[4]> \bc <[3]>4.
+  r1
+  r4 <6>8 <7> r \bo <[6\\]> <6> \bc <[7!]> %50
+  r4 \bo <[4]>8 \bc <[3]> r4 <6>8 <7 [_+]>
+  <6 4> \bo <[9! 7] _+> \bassFigureExtendersOn <8 6 _+> \bc <[7 5] _+> \bassFigureExtendersOff r2
+  <6!>8 <5+ _+>4 <7 [_+]>8 <4> <\t> <_+>4
+  r1 %54 finis
 }

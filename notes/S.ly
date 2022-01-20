@@ -987,7 +987,7 @@ SanctusSoprano = {
     h h g2~
     g fis4( e) %40
     fis1
-    g\breve*1/2\fermata \bar "|." %42 finis
+    g\breve*1/2\fermata \bar "||" %42 finis
   }
 }
 

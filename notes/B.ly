@@ -906,7 +906,7 @@ SanctusBasso = {
     g g\fermata g, g
     d'1~ %40
     d
-    g,\breve*1/2\fermata \bar "|." %42 finis
+    g,\breve*1/2\fermata \bar "||" %42 finis
   }
 }
 
